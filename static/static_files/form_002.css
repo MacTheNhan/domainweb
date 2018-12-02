@@ -1,0 +1,433 @@
+/*---------/global/---------*/
+.mt-form-group .form-control {
+    border-color: #e2e2e2;
+}
+
+.frm-body {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.iNET-form .form-group > label {
+	margin: 0px;
+	width: 100%;
+}
+.iNET-form .form-group > label > .label-control {
+	margin-bottom: 5px;
+	display: inline-block;
+}
+th > select,
+label .form-control,
+th > input[type="text"],
+th > .input-field > input[type="text"] {
+	font-weight: 400;
+}
+label + .radioGroup {
+	display: table-cell;
+}
+.iNET-form.grid-2 .form-group > label.calender,
+.iNET-form.grid-2 .form-group > label .label-control,
+.iNET-form.grid-2 .form-group > label.radio-label-group {
+	float: left;
+	width: 30%;
+	text-align: right;
+	padding-right: 15px;
+}
+.iNET-form.grid-2 .form-group > label > .input-group,
+.iNET-form.grid-2 .form-group > label > .form-control,
+.iNET-form.grid-2 .form-group > label > .input-field,
+.iNET-form.grid-2 .form-group > label.calender + .input-group,
+.iNET-form.grid-2 .form-group > label.radio-label-group + .radio-group {
+	width: 70%;
+}
+.input-field {
+	position: relative;
+	display: inherit;
+	width: 100%;
+}
+.input-group.input-field {
+	display: flex;
+}
+.input-group.input-field > * {
+	display: flex;
+}
+.input-group.input-field > .input-group-btn {
+	width: auto;
+}
+.input-group .form-control:not(:first-child):not(:last-child),
+.input-group .input-field .form-control:not(:first-child):not(:last-child) {
+	border-radius: 0px 4px 4px 0px;
+	-moz-border-radius: 0px 4px 4px 0px;
+	-webkit-border-radius: 0px 4px 4px 0px;
+}
+
+.search-filter .navbar-form {
+	margin: 0px;
+	padding: 0px;
+}
+.search-filter .navbar-form .form-group {
+	margin-right: 10px;
+}
+.search-filter .navbar-form .form-group:last-child {
+	margin-right: 0px;
+}
+.search-filter .navbar-form .form-group > select.form-control {
+	text-overflow: ellipsis;
+}
+.search-filter .navbar-form .form-group > select.form-control,
+.search-filter .navbar-form .form-group > .form-date {
+	width: 150px;
+}
+.search-filter .navbar-form .form-group > label {
+	margin: 0px;
+}
+.search-term .navbar-form {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.pagination ul.pager > li.next {
+	margin-left: 15px;
+} 
+/*---------/Search form domain global/---------*/
+.search-form-dmn-global .h1-title {
+	margin: 30px 0px;
+	text-align: center;
+}
+.search-form-dmn-global .search-dmn-continue {
+	padding: 15px;
+	margin-bottom: 15px;
+	border: none;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.search-form-dmn-global .search-dmn-continue .headline {
+	color: #fff;
+	margin-top: 0px;
+	text-align: center;
+}
+
+.subpage.xyz .search-form-dmn-global {
+    padding: 10px;
+    background-color: #0e83bf;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+.subpage.xyz .search-form-dmn-global .form-control,
+.subpage.xyz .search-form-dmn-global form > .input-group {
+    width: 100% !important;
+}
+.subpage.xyz .search-form-dmn-global .form-control {
+    border: none;
+}
+.form-selected {
+    padding: 10px;
+    background-color: #e2e2e2;
+    position: relative;
+    margin-bottom: 15px;
+}
+/*----------------/Form thong tin tai khoan/---------------*/
+label .txt-red {
+	color: #c61818;
+}
+.frm-get-userInfo .form-group > .form-control {
+	width: 60%;
+}
+.frm-get-userInfo .btnFormSubmit {
+	border-top: 1px solid #e2e2e2;
+	padding-top: 15px;
+	text-align: center;
+}
+.radioGroup label {
+	margin-right: 15px;
+	font-weight: 400;
+}
+.radioGroup label > input[type="radio"]{
+	vertical-align: -1px;
+	margin-right: 5px;
+}
+.form-group .label-control > input {
+	margin-top: 6px;
+}
+
+/*Style input placeholder (not group)*/
+.form-group .label-control > input:-moz-placeholder {
+	font-weight: 400;
+}
+.form-group .label-control > input::-moz-placeholder {
+	font-weight: 400;
+}
+.form-group .label-control > input::-webkit-input-placeholder {
+	font-weight: 400;
+}
+.form-group .label-control > input:-ms-input-placeholder {
+	font-weight: 400;
+}
+/*----------------/Social form inline/---------------*/
+#social .form-group > label {
+	position: absolute;
+	clip: rect(0,0,0,0);
+	clip: rect(0px,0px,0px,0px);
+}
+#social .form-inline .form-group {
+	width: calc(100% - 20%);
+}
+#social .form-inline .form-group > input.form-control {
+	width: 100%;
+}
+/*Form service hosting style*/
+.frm-hosting-service .form-actions,
+.frm-hosting-service .control-label {
+  text-align: right;
+}
+/*Radio form style use ionicons*/
+.form-horizontal .radio-inline {
+    padding-top: 0;
+}
+form .radio {
+	padding-left: 0px;
+	margin: 10px 0px;
+}
+.radio-inline > input[type="radio"],
+.radio > label > input[type="radio"] {
+	display: none;
+}
+
+.radio > label > input[type="radio"] + i,
+.radio > label > input[type="radio"] + i + i,
+label.radio-inline > input[type="radio"] + i,
+label.radio-inline > input[type="radio"] + i + i {
+	color: #727272;
+	font-size: 18px;
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	line-height: 1;
+}
+.radio > label > input[type="radio"] + i.ion-ios-circle-filled,
+.radio > label > input[type="radio"]:checked + i + i.ion-ios-circle-outline,
+label.radio-inline > input[type="radio"] + i.ion-ios-circle-filled,
+label.radio-inline > input[type="radio"]:checked + i + i.ion-ios-circle-outline {
+	display: none;
+}
+.radio > label > input[type="radio"] + i + i.ion-ios-circle-outline,
+.radio > label > input[type="radio"]:checked + i.ion-ios-circle-filled,
+label.radio-inline > input[type="radio"] + i + i.ion-ios-circle-outline,
+label.radio-inline > input[type="radio"]:checked + i.ion-ios-circle-filled {
+	display: block;
+}
+/*---- Chuyen ten mien ve iNET ----*/
+.chuyen-ten-mien-ve-inet .input-group label.input-group-addon {
+	min-width: 150px;
+	color: #212121;
+	font-weight: 600;
+}
+
+/*--------- material form design -------------*/
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    vertical-align: middle;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #4894df;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px 0 #4894df;
+    -moz-box-shadow: 0 0 1px #4894df;
+    -webkit-box-shadow: 0 0 1px #4894df;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+    -moz-border-radius: 34px;
+    -webkit-border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+
+/*------ Form material design ------*/
+.frm-style-material {
+    box-shadow: 0px 3px 4px 1px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 3px 4px 1px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0px 3px 4px 1px rgba(0,0,0,.15);
+    padding: 10px 20px;
+}
+.form-inline[display=flex] > .form-group > .btn,
+.frm-style-material .input-group .input-group-addon {
+    border: none;
+}
+
+.frm-whois-dmn .input-group .input-group-btn > .btn,
+.form-inline[display=flex] > .form-group > .btn-tooltip,
+.form-inline[display=flex] > .form-group > :only-child,
+.form-inline[display=flex] > .form-group > .btn-popover {
+    width: 100%;
+}
+
+.frm-style-material label {
+    font-weight: 600;
+}
+.frm-style-material .form-control {
+    padding-left: 0px;
+    padding-right: 0px;
+    border-width: 0px 0px 1px;
+    background-color: transparent;
+}
+
+.btn.btn-icon:focus,
+.frm-material .form-control,
+.mt-form-group .form-control,
+.frm-style-step .form-control,
+.frm-style-material .form-control,
+.frm-style-step .form-control:focus,
+.frm-search-material .form-control,
+.frm-style-material .form-control:focus,
+form.frm-one-input-style .form-control,
+form.frm-one-input-style .form-control:focus,
+.tool-bar .tb-search-action .form-control:focus,
+.subpage.xyz .search-form-dmn-global .form-control {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.frm-style-material .form-control,
+.frm-style-material .input-group .input-group-addon {
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.frm-style-material .form-control[disabled] {
+    color: #b6b6b6;
+    border-bottom-color: #e2e2e2;
+}
+.frm-style-material .btn {
+    border-radius: 25px;
+    -moz-border-radius: 25px;
+    -webkit-border-radius: 25px;
+    box-shadow: 0px 2px 2px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 2px 2px 0px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0px 2px 2px 0px rgba(0,0,0,.15);
+    min-width: 96px;
+}
+.frm-style-material .btn:not(:last-child) {
+    margin-right: 10px;
+}
+.frm-style-material .input-group-btn > .btn {
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.frm-style-step {
+    padding: 25px;
+    background-color: #B7B8B9;
+}
+.frm-style-step > .input-group:only-child {
+    margin: 0;
+}
+
+form.frm-one-input-style {
+    padding: 15px;
+    background-color: #e2e2e2;
+}
+/*----------------- Style form-inline with flex and children single -----------------*/
+.form-inline[display=flex] > .form-group {
+    display: flex;
+}
+.form-inline[display=flex] > .form-group,
+.form-inline[display=flex] > .form-group > .form-control {
+    flex: 1 0 auto;
+    -webkit-flex: 1 0 auto;
+    margin-right: 5px;
+}
+
+.form-inline[display=flex] > .form-group:last-child,
+.form-inline[display=flex] > .form-group > .form-control:last-child {
+    margin-right: 0px;
+}
+
+/*------------ form-search style material ----------*/
+.frm-material .form-control:not(select) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.frm-material .form-control,
+.frm-material .form-control + .input-group-btn > .btn {
+    border-color: #f2f2f2;
+}
+.mt-form-group .form-control:not(select),
+.frm-material .form-control:not(select) {
+    background-color: #f2f2f2;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+.frm-material .form-control + .input-group-btn > .btn {
+    border-left: none;
+}
+.frm-material .form-control + .input-group-btn > .btn:hover,
+.frm-material .form-control + .input-group-btn > .btn:focus {
+    background-color: #fafafa;
+}
+.frm-material .input-group-btn > .btn {
+    border-color: transparent;
+    background-color: #f2f2f2;
+}
+
+
+@media screen and (max-width: 768px){
+    .frm-style-material {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+
+
+
+

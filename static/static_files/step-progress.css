@@ -1,0 +1,147 @@
+.step-inner > .btn-circle {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.stepwizard .stepwizard-row {
+    display: flex;
+    flex-flow: wrap;
+}
+.stepwizard-row > .stepwizard-step {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+.stepwizard-row > .stepwizard-step:before {
+    content: "";
+    border-width: 2px;
+    border-style: solid;
+    position: absolute;
+    bottom: 22px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+.stepwizard-row > .stepwizard-step:first-child:before {
+    left: 10px;
+}
+.stepwizard-row > .stepwizard-step:last-child:before {
+    right: 10px;
+}
+
+.stepwizard-step > .step-inner {
+    padding: 5px;
+    text-align: center;
+    color: #929292;
+}
+.stepwizard-step.is-active > .step-inner {
+    color: #03a9f4;
+}
+
+.stepwizard-step > .step-inner  p {
+    margin-bottom: 0px;
+}
+
+.stepwizard .step-inner > .btn-circle {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 6px 0;
+    margin: 5px 0px;
+    line-height: 1.4;
+    border: none;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+/*------- dark ui color design -------*/
+.stepwizard-dark .step-inner > .btn-circle,
+.stepwizard-dark .step-inner > .btn-circle:hover,
+.stepwizard-dark .step-inner > .btn-circle:focus {
+    background-color: #727272;
+    color: #b6b6b6;
+}
+.stepwizard-dark .stepwizard-row > .stepwizard-step:before {
+    border: 2px solid #727272;
+}
+
+.stepwizard .stepwizard-step > .step-inner > * {
+    color: #929292;
+}
+
+.stepwizard .stepwizard-row > .stepwizard-step.is-active:before {
+    border-color: #4b82bc;
+}
+.stepwizard .stepwizard-row > .stepwizard-step.is-active.order-del:before {
+    border-color: #db3333;
+}
+.stepwizard .stepwizard-row > .stepwizard-step.is-active > .step-inner > .btn-circle {
+    background-color: #4b82bc;
+    color: #cbdbec;
+}
+.stepwizard .stepwizard-step.is-active > .step-inner > * {
+    color: #4b82bc;
+}
+.stepwizard .stepwizard-step.is-active.order-del > .step-inner > * {
+    color: #db3333;
+}
+.stepwizard .stepwizard-row > .stepwizard-step.is-active.order-del > .step-inner > .btn-circle {
+    background-color: #db3333;
+    color: #fff;
+}
+/*------ light ui color design --------*/
+.stepwizard-light .step-inner > .btn-circle,
+.stepwizard-light .step-inner > .btn-circle:hover,
+.stepwizard-light .step-inner > .btn-circle:focus {
+    background-color: #dcdcdc;
+    color: #929292;
+}
+.stepwizard-light .stepwizard-row > .stepwizard-step:before {
+    border-color: #dcdcdc;
+}
+
+@media screen and (min-width: 667px) {
+    .stepwizard-row > .stepwizard-step {
+        padding-bottom: 40px;
+    }
+    .stepwizard .step-inner > .btn-circle {
+        position: absolute;
+        bottom: 5px;
+        left: 50%;
+        margin-left: -20px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+    .stepwizard .stepwizard-row {
+        flex-direction: column;
+        margin: 10px 0px;
+    }
+    .stepwizard-step > .step-inner {
+        padding-left: 50px;
+        text-align: left;
+    }
+    .stepwizard-row > .stepwizard-step:before {
+        top: 0px;
+        bottom: 0px;
+    }
+    .stepwizard .step-inner > .btn-circle {
+        position: absolute;
+        top: 50%;
+        margin-top: -15px;
+        left: 0px;
+    }
+    .stepwizard-row > .stepwizard-step:last-child > .step-inner {
+        text-align: inherit;
+    }
+
+    .stepwizard-row > .stepwizard-step:before,
+    .stepwizard-row > .stepwizard-step:first-child:before {
+        left: 13px;
+    }
+
+    .stepwizard-row > .stepwizard-step:before,
+    .stepwizard-row > .stepwizard-step:last-child:before {
+        right: inherit;
+    }
+}

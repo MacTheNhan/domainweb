@@ -1,0 +1,57 @@
+﻿/*----------------/Form in cpanel iNET social style/---------------*/
+#social .list-social {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#social .list-social > li {
+    float: left;
+}
+
+#social .list-social > li > a {
+	border-left: 1px solid rgba(0, 0, 0, 0.15);
+    display: block;
+    padding: 15px 22px;
+    font-size: 20px;
+    color: #fff;
+}
+
+#social .list-social > li > a:hover,
+#social .list-social > li > a:focus {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+#social .form-inline {
+	padding: 13px 0px 0px;
+}
+#social .form-inline .form-group > input.form-control{
+	border: none;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+}
+#social .list-link-social {
+	list-style: none;
+	margin: 0px; padding: 0px;
+}
+#social .list-link-social > li {
+	border-left: 1px solid #32a7fe;
+	float: left;
+	margin: 0;
+}
+#social .list-link-social > li > a {
+	color: #fff;
+	display: block;
+	padding: 18px 30px;
+	font-size: 18px;
+}
+#social .list-link-social > li > a:hover,
+#social .list-link-social > li > a:focus,
+#social .list-link-social > li > a:focus:active {
+	background-color: rgba(0, 0, 0, 0.12);
+}
+#social .list-link-social > li > a > span {
+	font-size: 14px;
+	font-weight: 700;
+}

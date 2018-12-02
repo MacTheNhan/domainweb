@@ -1,0 +1,325 @@
+.up-sale-config .header-box {
+    padding-bottom: 6px;
+    position: relative;
+}
+/*-------------/Dich vu co ban/-----------*/
+.bg-sv .box-title {
+	font-size: 22px;
+}
+.bg-sv .des {
+	font-size: 15px;
+}
+#service-basic .svb-box .bg-sv {
+	margin: 0px;
+	background-color: #fff;
+	padding: 35px 0 18px;
+	box-shadow: 0px 0px 1px 1px rgba(0,0,0,.05);
+	-moz-box-shadow: 0px 0px 1px 1px rgba(0,0,0,.05);
+	-webkit-box-shadow: 0px 0px 1px 1px rgba(0,0,0,.05);
+}
+#service-basic .svb-box .bg-sv:hover {
+	box-shadow: 0px 0px 10px 1px rgba(0,0,0,.25);
+	-moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,.25);
+	-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,.25);
+}
+
+#service-basic .svb-box .inet-grid > .col-grid .des {
+	background: none !important;
+	height: auto;
+	padding: 25px 15px;
+}
+#service-basic .svb-box .box-title {
+	margin: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#service-basic .svb-box .bg-sv .des:before {
+	display: none;
+}
+
+#service-basic .btn-detail-b {
+	padding: 6px 18px;
+}
+/*-------------/Dich vu gia tang gia tri/-----------*/
+#addValueService {
+	margin: 0px;
+}
+.title-add-service {
+	color: #424242;
+	border-bottom: 1px solid #b2c5d8;
+	display: inline-block;
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+.svb-add-vl {
+	border-bottom: 1px solid #e2e2e2;
+}
+#addValueService .bg-svb-box {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#addValueService .bg-svb-box > .thumbnail {
+	width: 105px;
+	background-color: transparent;
+	border: none;
+	border-radius: 0px;
+	padding: 0px;
+	margin: 0px 30px 0px 0px;
+}
+#addValueService .bg-svb-box > figcaption {
+	width: 100%;
+}
+
+/*--------------- Why is iNET -------------*/
+.wi-des > ul {
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+
+/*-------------/Service config style /-----------*/
+#service-options .term-length-option {
+	padding: 0px;
+	margin: 0px;
+}
+#service-options .term-length-option > li {
+	padding: 8px;
+	border-bottom: 1px dashed #e2e2e2;
+	font-size: 1.6em;
+}
+.term-length-option > li .vertical-align > .radio {
+	display: inline-block;
+	position: relative;
+	padding: 0px; margin: 0px;
+}
+.term-length-option > li .vertical-align > .radio label:before,
+.term-length-option > li .vertical-align > .radio input[type="radio"]:checked + label:after {
+	content: '';
+	position: absolute;
+}
+.term-length-option > li .vertical-align > .radio label {
+	padding-left: 35px;
+}
+.term-length-option > li .vertical-align > .radio label:before {
+	border: 2px solid #727272;
+	height: 20px;
+	width: 20px;
+	left: 0px;
+	top: 6px;
+}
+.term-length-option > li .vertical-align > .radio input[type="radio"]:checked + label:after {
+	background-color: #727272;
+	height: 10px;
+	width: 10px;
+	top: 11px;
+	left: 5px;
+}
+.price-with-extend-save .extend-length,
+.term-length-option > li .vertical-align > .radio,
+.term-length-option > li .vertical-align .price-sale {
+	margin-right: 1.8em;
+}
+.term-length-option > li .vertical-align .price-old {
+	margin-right: 15px;
+}
+.term-length-option > li .vertical-align > .radio > input {
+	display: none;
+}
+.order-info-sidebar .cart-order-sum .box-title {
+	padding: 8px;
+	background-color: #f2f2f2;
+	margin-top: 26px;
+	font-size: 20px;
+	border: 1px solid #e2e2e2;
+}
+.order-info-sidebar .order-info {
+	margin-bottom: 10px;
+	border: 1px dotted #b6b6b6;
+	background-color: #fff8d0;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 8px;
+}
+.order-info-sidebar .order-info .h4 {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #b6b6b6;
+	background: none;
+	margin-top: 0px;
+}
+.order-info-sidebar .total-payment {
+	border: 1px dashed #b6b6b6;
+	padding: 8px;
+	margin-bottom: 20px;
+}
+.order-info-sidebar .total-payment .txt-title {
+	font-size: 16px;
+	background-color: #f8f8f8;
+	border-bottom: 1px dashed #e2e2e2;
+	padding: 8px;
+	margin: -8px -8px 5px;
+}
+.add.products .vertical-align .box-inner-title {
+	margin: 4px 6px;
+}
+/*----------/Email Option/----------*/
+.planOption-selected .plan-droplist {
+	display: none;
+}
+#emailOption {
+	left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 248px;
+}
+#emailOption .diamond {
+	background-color: #b4b4b4;
+    display: inline-block;
+    height: 65px;
+    position: absolute;
+    top: -23px;
+    transform: rotate(46deg);
+	-o-transform: rotate(46deg);
+	-ms-transform: rotate(46deg);
+	-moz-transform: rotate(46deg);
+	-webkit-transform: rotate(46deg);
+    width: 65px;
+    z-index: 1;
+}
+#emailOption .diamond + .weight-bold {
+	color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px;
+    position: relative;
+    z-index: 2;
+} 
+/*------------------/Service when login acc style/-----------------*/
+#BaseServiceInfo .box-wrap > .box-inner {
+	padding: 10px;
+	background-color: #BBDEFB;
+	position: relative;
+}
+#BaseServiceInfo .h3{
+	margin-top: 0px;
+	color: #525252;
+	font-size: 18px;
+}
+#BaseServiceInfo .countSvInfo {
+	font-size: 4em;
+	line-height: 1;
+	color: #fff;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+#BaseServiceInfo .iconSv {
+	bottom: 0;
+	font-size: 4em;
+	position: absolute;
+	right: 12px;
+	color: rgba(255,255,255,0.35);
+}
+/*--------------/Plan in domain-configuration/---------------*/
+.box-inner-title .ux-check-icon,
+.planOption {
+	cursor: pointer;
+}
+.box-inner-title .ux-check-icon {
+	padding: 2px;
+	margin: 0px;
+	display: inline;
+}
+.step-wrapper .step .box-inner.selectbox {
+	border-color: #1eba5c;
+}
+.tab-selected-content,
+.planListDropdow .dropdown-root {
+	position: relative;
+}
+.not-option.plan-droplist-selected {
+	cursor: default;
+}
+.not-option.plan-droplist-selected:before {
+	display: none;
+}
+.tab-selected-content .plan-option-selected,
+.tab-selected-content .planOption {
+	position: absolute;
+	width: 100%;
+}
+.tab-selected-content .planOption {
+	background-color: #fff;
+	z-index: 9;
+	display: none;
+}
+.planListDropdow .dropdown-root {
+	cursor: pointer;
+	padding: 8px;
+	border: 1px solid #b6b6b6;
+	font-weight: 600;
+}
+.planListDropdow .dropdown-root:before {
+	content: "\f107";
+	font-family: "FontAwesome";
+	position: absolute;
+	right: 12px;
+}
+.planListDropdow.dropdown-open .planOption {
+	display: block;
+}
+.planOption .package-plan {
+	padding: 8px;
+	margin: 0px;
+}
+.planOption .package-plan ul {
+	padding: 0px;
+	margin: 0px;
+    list-style: none;
+}
+.planOption .package-plan:nth-child(n+2){
+	border-top: none;
+}
+.planOption .package-plan:hover,
+.planOption .package-plan:focus{
+	background-color: #fffbe8;
+}
+.solution-number.icon {
+	margin-top: -5px;
+	font-size: 20px;
+	padding: 8px 15px;
+}
+.dmnConfig .footer-box {
+	margin: 15px 0px;
+}
+/*-------------/End Domain config style/-----------*/
+/*-------------/Start hosting config style/-----------*/
+.hostingConfig .search-domain-with-campaign {
+	margin-top: 12%;
+}
+.hostingConfig .search-domain-with-campaign h1 {
+	text-align: center;
+	text-transform: uppercase;
+}
+.hostingConfig .whois-dmn-wrap {
+	overflow: inherit;
+	border: none;
+	margin-bottom: 20px;
+	padding: 15px;
+}
+.landing-page .page-title {
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+
+@media screen and (max-width: 480px) {
+    #addValueService .bg-svb-box {
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #addValueService .bg-svb-box > .thumbnail {
+        margin: 0px;
+    }
+}

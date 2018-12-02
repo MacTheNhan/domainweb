@@ -1,0 +1,43 @@
+/* Affix whois style */
+#filterGroup .filter-dmn-ext-wrap > .filter-domain-extens {
+	transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
+.whois-domain {
+	transition: all 0.25s ease-in-out;
+	-o-transition: all 0.25s ease-in-out;
+	-ms-transition: all 0.25s ease-in-out;
+	-moz-transition: all 0.25s ease-in-out;
+	-webkit-transition: all 0.25s ease-in-out;
+}
+
+#domainBO .ads-title .fa-hand-pointer-o {
+	animation-name: iwobble;
+	animation-duration: 0.35s;
+	animation-timing-function: ease-in-out;
+	animation-delay: .4s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+/*iwobble effect*/
+@-webkit-keyframes iwobble {
+	0% {
+		top: -3px;
+	}
+	100% {
+		top: 6px;
+	}
+}
+
+@keyframes iwobble {
+	0% {
+		top: -3px;
+	}
+	100% {
+		top: 6px;
+	}
+}

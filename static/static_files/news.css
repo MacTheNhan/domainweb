@@ -1,0 +1,211 @@
+.news-page-detail .nav-breadcrumbs {
+	margin: 0px -15px;
+}
+.post-tag > a[rel="tag"] {
+	background-color: #f2f2f2;
+    border: 1px solid #e2e2e2;
+    display: inline-flex;
+    margin: 5px;
+    padding: 4px 8px;
+}
+/* feature slider */
+#feature-carousel .carousel-inner {
+	height: 340px;
+}
+#feature-carousel .thumbnail-carousel > img {
+	height: 340px;
+	width: 100%;
+}
+#feature-carousel .carousel {
+	overflow: hidden;
+}
+#feature-carousel .carousel .carousel-caption {
+	background-color: rgba(0, 0, 0, 0.75);
+    bottom: 12px;
+    left: 0;
+    padding: 10px;
+    right: 0;
+}
+#feature-carousel .carousel .carousel-caption > .caro-title {
+	text-transform: uppercase;
+	margin: 6px 0px;
+}
+#feature-carousel .carousel .carousel-caption > .caro-title a {
+	color: #fff;
+}
+#feature-carousel .carousel .carousel-caption > .caro-title a:hover,
+#feature-carousel .carousel .carousel-caption > .caro-title a:focus {
+	color: #FF5252;
+}
+#feature-carousel .carousel .carousel-control {
+	background: none;
+	width: inherit;
+	top: -20%;
+}
+#feature-carousel .carousel .carousel-control .glyphicon-chevron-left {
+	left: -45px;
+}
+#feature-carousel .carousel .carousel-control .glyphicon-chevron-right {
+	right: -45px;
+}
+#feature-carousel .carousel:hover .carousel-control .glyphicon-chevron-left {
+	left: 8px;
+}
+#feature-carousel .carousel:hover .carousel-control .glyphicon-chevron-right {
+	right: 8px;
+}
+#feature-carousel .carousel .carousel-control .glyphicon {
+	background-color: rgba(0, 0, 0, 0.75);
+    display: block;
+    font-size: 20px;
+    height: inherit;
+    margin: 0;
+    padding: 8px;
+    width: inherit;
+}
+#feature-carousel .carousel .carousel-indicators {
+	bottom: 0;
+    left: 0;
+    margin: 0;
+    right: 0;
+    width: inherit;
+	line-height: 1;
+	display: flex;
+}
+#feature-carousel .carousel .carousel-indicators > li {
+	width: 100%;
+	border: none;
+	background-color: rgba(0,0,0,0.55);
+	border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px;
+	height: 10px;
+}
+#feature-carousel .carousel .carousel-indicators > li.active {
+	background: #FF5252;
+	margin: 1px;
+}
+/* end feature slide */
+
+.post-listing > .pagination  {
+	width: 100%;
+}
+.post-listing > .item-post {
+	margin: 15px 0px;
+	padding: 15px 10px;
+	border: 1px solid #eee;
+}
+.post-listing > .item-post:nth-child(odd){
+	background-color: #f8f8f8;
+}
+.post-listing .post-thumbnail {
+	width: calc(100% - 80%);
+}
+.post-listing .post-thumbnail + * {
+	width: 80%;
+}
+/* news details */
+.news-page-detail #main-content {
+	background-color: #f2f2f2;
+}
+.news-page-detail .container > .row {
+	background-color: #fff;
+}
+
+#thePost {
+	padding: 20px 0px;
+}
+#thePost .search-box {
+	padding: 8px;
+	background-color: #f2f2f2;
+	border: 1px solid #e2e2e2;
+}
+#thePost .search-box > form,
+#thePost .search-box > form .form-group > label {
+	display: flex;
+}
+#thePost .search-box > form .form-group {
+	width: 100%;
+}
+#thePost .search-box > form .form-group > label .label-control {
+	margin-right: 10px;
+}
+#thePost .search-box > form .form-group > label .form-control {
+	width: 82%;
+}
+.post-content .post-meta {
+	padding-bottom: 4px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.post-content .post-meta > * {
+	margin-right: 15px;
+}
+.post-content .post-meta > *:last-child {
+	margin-right: 0px;
+}
+.post-meta {
+	color: #929292;
+}
+/* sidebar style */
+.domain-config .sidebar .sidebar-inner {
+	padding: 0px;
+}
+.sidebar .sidebar-inner {
+	padding: 20px 0px;
+}
+.widget .widget-header {
+	padding: 1px 8px;
+	border: 1px solid #e2e2e2;
+	margin-bottom: 10px;
+	box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.06);
+	-moz-box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.06);
+	-webkit-box-shadow: -2px 2px 0px 0px rgba(0,0,0,0.06);
+}
+
+.widget-posts .list-post > li figure > .thumbnails {
+	width: 100px;
+	margin-right: 10px;
+}
+.widget-posts .list-post > li figure > .thumbnails img {
+	height: 68px;
+}
+.widget-posts figcaption > .post-title {
+	font-size: 15px;
+	margin-top: 0px;
+}
+.widget-posts figcaption > .post-meta {
+	font-size: 13px;
+}
+
+.widget .list-no-thumbnail > li {
+	padding: 10px;
+	border-bottom: 1px dashed #e2e2e2;
+}
+.widget .list-no-thumbnail > li > .icon {
+	margin-right: 10px;
+}
+.widget .list-no-thumbnail > li:hover > .icon {
+	padding-left: 5px;
+	margin-right: 5px;
+	color: #929292;
+}
+.widget a {
+	color: #424242;
+}
+.widget a:hover,
+.widget a:focus {
+	color: #1976d2;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

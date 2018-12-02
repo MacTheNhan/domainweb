@@ -1,0 +1,92 @@
+.link-continue-to-cart {
+	margin: 12px 0px;
+}
+
+/* Domain list manager style */
+.inet-alert {
+	padding: 10px 0px;
+}
+.help-record > ol > li {
+	margin-bottom: 15px;
+}
+.help-record > ol > li:last-child {
+	margin-bottom: 0px;
+}
+.record-group {
+	padding: 10px;
+    margin: 8px -9px;
+} 
+.record-group:nth-child(odd) {
+	border: 1px solid #e2e2e2;
+    background-color: #f8f8f8;
+}
+/* whois invisible style */
+.wp-body .wp-box {
+	padding: 10px;
+	margin: 20px -5px;
+}
+.wp-body .arrow-style > md-icon {
+	font-size: 4em;
+	height: inherit;
+	width: inherit;
+	color: #b6b6b6;
+}
+/* Domain config style */
+.step-wrapper:not(#privacySolution) {
+	margin-bottom: 15px;
+	padding: 10px;
+	background-color: #f2f2f2;
+	border: 1px solid #e2e2e2;
+}
+.step-wrapper .figure-thumbnail > .thumbnail {
+	padding: 0px;
+	border: none;
+	background: none;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+/* tabs in domain config style */
+md-tabs md-tab-content md-content {
+	position: static;
+	overflow: inherit;
+}
+/* bang gia ten mien */
+.bang-gia-ten-mien .md-subheader-inner {
+	background-color: #727272;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.bang-gia-ten-mien md-list-item {
+	margin-bottom: 15px;
+}
+.bang-gia-ten-mien .md-list-item-text {
+	padding: 8px;
+	border: 1px solid #e2e2e2;
+}
+.bang-gia-ten-mien .md-list-item-text > * {
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px dashed #e2e2e2;
+}
+.bang-gia-ten-mien .md-list-item-text > *:last-child {
+	border-bottom: none;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+
+#hostingService .sv-item {
+	margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

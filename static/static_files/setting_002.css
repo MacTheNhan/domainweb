@@ -1,0 +1,14 @@
+#account-setting-group .content-inner {
+	padding: 15px;
+	background-color: #f8f8f8;
+}
+.frm-owner-contact-info.frm-get-userInfo .btnFormSubmit {
+	text-align: right;
+}
+#accountOwner .owner-contact-info {
+	padding: 8px 15px;
+	border-radius: 0px 0px 5px 5px;
+	-moz-border-radius: 0px 0px 5px 5px;
+	-webkit-border-radius: 0px 0px 5px 5px;
+	background-color: #fff;
+} 

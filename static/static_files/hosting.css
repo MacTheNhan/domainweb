@@ -1,0 +1,59 @@
+.package-hosting md-tabs > md-tabs-wrapper {
+	background-color: #fff;
+}
+.package-hosting md-tab-content .dropdown > .md-button.dropdown-toggle {
+	width: 100%;
+	margin: 10px 0px;
+}
+.package-hosting md-tab-content .dropdown.open .dropdown-menu {
+	position: relative;
+	width: 100%;
+	left:0px;
+}
+.package-hosting md-tab-content .dropdown.open .dropdown-menu > * {
+	padding: 10px;
+}
+.package-hosting md-tab-content .dropdown.open .dropdown-menu > *:nth-child(odd){
+	background-color: #f2f2f2;
+}
+.package-hosting md-tab-content .dropdown.open .dropdown-menu > .scrollPlanList {
+	padding: 5px 10px;
+}
+/*
+----------------------- Update Package ---------------------- /*
+*/
+.form-group > .dropdown > .md-button {
+	width: 100%;
+}
+.form-group > .dropdown.open .dropdown-backdrop {
+	background-color: rgba(0,0,0,0.5);
+}
+.form-group > .dropdown.open .dropdown-menu {
+	position: fixed;
+	top: 10%;
+    left: 20px;
+    bottom: 10%;
+    right: 20px;
+    overflow: auto;
+}
+.form-group > .dropdown.open .dropdown-menu > * {
+	padding: 10px;
+}
+.form-group > .dropdown.open .dropdown-menu > *:nth-child(odd){
+	background-color: #f2f2f2;
+}
+/* customize package */
+md-slider.md-default-theme .md-thumb:after, md-slider .md-thumb:after {
+	border-color: #379FDD;
+}
+md-slider.md-default-theme .md-sign, md-slider .md-sign,
+md-slider.md-default-theme .md-thumb:after, md-slider .md-thumb:after,
+md-slider.md-default-theme .md-track.md-track-fill, md-slider .md-track.md-track-fill {
+	background-color: #379FDD;
+}
+md-slider.md-default-theme .md-sign:after, md-slider .md-sign:after {
+	border-top-color: #379FDD;
+}
+.md-slider-wrapper .md-track-ticks > canvas {
+	display: none;
+}

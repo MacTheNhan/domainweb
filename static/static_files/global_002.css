@@ -1,0 +1,85 @@
+md-content #topHeader {
+    position: relative;
+    max-height: 40px;
+    box-shadow: 0px 3px 3px 0px rgba(0,0,0,.25);
+    -moz-box-shadow: 0px 3px 3px 0px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0px 3px 3px 0px rgba(0,0,0,.25);
+}
+md-content .header {
+    background-color: #e2e2e2;
+}
+
+md-content .top-header *:not(a) > md-icon {
+    margin: 0 6px;
+    padding: 8px;
+    height: inherit;
+}
+
+md-content .top-header .phone-support a {
+    font-size: 18px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 0 6px;
+    display: inline-block;
+    line-height: 1;
+}
+
+.md-dialog-container md-dialog > md-toolbar.md-default-theme:not(.md-menu-toolbar),
+.md-dialog-container md-dialog > md-toolbar:not(.md-menu-toolbar) {
+    background-color: #1976d2;
+}
+md-content .aside.md-sidenav-right .md-toolbar-tools {
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+/*Mobile design responsive*/
+@media screen and (min-width: 900px) {
+    .img-desktop {
+        display: block;
+    }
+    .img-mobile {
+        display: none;
+    }
+}
+
+/*Mobile design responsive*/
+@media screen and (min-width: 769px) {
+    #partner-brand .row[display=flex] h4 {
+        margin: 0px;
+    }
+    .right-sidebar {
+        text-align: right;
+    }
+    .top-header * > md-icon,
+    .sidebar-control md-icon[md-font-icon] {
+        font-size: 21px;
+    }
+    .header h1 > a {
+        display: block;
+        margin-top: 2px;
+    }
+
+    /*.whois-dmn-wrap*/
+    .whois-dmn-wrap .input-search {
+        height: 47px;
+    }
+
+    md-content .top-domains .price-old {
+        color: #194c80;
+    }
+    md-content .top-domains .price-sale {
+        color: #e2e2e2;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .row[display=flex] {
+        display: inherit;
+    }
+    #partner-brand .row[display=flex] h4 {
+        text-align: center;
+        font-size: 22px;
+    }
+}
+

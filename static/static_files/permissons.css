@@ -1,0 +1,203 @@
+/* Su dung di kem voi bootstrap */
+/*------------/Page permissions layout/------------*/
+#rootAdmin > .box-inner {
+	padding: 10px
+}
+#rootAdmin .thumbnail {
+	width: 60px;
+	height: 60px;
+	overflow: hidden;
+}
+.admin-info .contact-info ul > li {
+	color: #525252;
+}
+.admin-info .thumbnail-in > i {
+	font-size: 3em;
+	color: #727272;
+	vertical-align: sub;
+	margin-right: 20px;
+}
+#permissionsWrap .sub-user {
+	border-left: 1px solid #e2e2e2;
+	padding: 30px 0px 30px 135px;
+	margin-left: 38px;
+}
+#permissionsWrap .sub-user > .box-inner {
+	position: relative;
+}
+#permissionsWrap .sub-user > .box-inner:before {
+	content: "";
+	height: 1px;
+	width: 135px;
+	position: absolute;
+	left: -135px;
+	top: 25px;
+	background-color: #e2e2e2;
+}
+#permissionsWrap .info-user > .content-info {
+	padding: 15px 10px;
+	border-bottom: 1px dotted #e2e2e2;
+}
+#permissionsWrap .info-user > .content-info:nth-child(odd){
+	background-color: #f8f8f8;
+}
+#permissionsWrap .info-user > .content-info:last-child {
+	border-bottom: none;
+}
+#permissionsWrap .essentials {
+	padding: 10px;
+}
+.content-info .list-item > li{
+	color: #727272;
+}
+.content-info .per-info .list-group {
+	margin: 0px 0px 10px;
+}
+.content-info .per-info .list-group:last-child {
+	margin-bottom: 0px;
+}
+.content-info .per-info .list-group > .list-group-item {
+	display: inline-block;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	margin-right: -1px;
+}
+.content-info .per-info .list-group > .list-group-item:last-child {
+	border-radius: 0px 3px 3px 0px;
+	-moz-border-radius: 0px 3px 3px 0px;
+	-webkit-border-radius: 0px 3px 3px 0px;
+}
+.content-info .per-info .list-group > .list-group-item.disabled {
+	margin: 0 -5px 0 0;
+	border-radius: 3px 0px 0px 3px;
+	-moz-border-radius: 3px 0px 0px 3px;
+	-webkit-border-radius: 3px 0px 0px 3px;
+	min-width: 100px;
+	font-weight: 700;
+}
+.permission-check .per-service {
+	padding: 15px 0px 14px;
+	border-bottom: 1px dashed #e2e2e2;
+}
+.permission-check .per-service:last-child {
+	padding-bottom: 0px;
+	border-bottom: none;
+}
+.permission-check .per-service .checkbox.root {
+	margin: 0px -1px 0px 0px;
+	padding: 11px;
+}
+.permission-check .per-service .checkbox.root > label {
+	padding-left: 0px;
+}
+.permission-check .per-service .checkbox.root > label > input {
+	margin-top: 3px;
+}
+.permission-check .per-service .branch {
+	display: table-cell;
+	padding: 4px 5px;
+}
+.permission-check .per-service .branch > label {
+	margin: 6px;
+	font-weight: 400;
+	color: #525252;
+}
+#permissionsWrap .action-dashboard-footer {
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 1px;
+	margin-bottom: 25px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    /*overwrite mya css*/
+    .mya .products-manager-list .check-item {
+        margin: 0px;
+    }
+    .btn-control-service {
+        background: none;
+        border: none;
+    }
+
+    .sub-user {
+        padding: 10px 0px 10px 25px;
+        margin-left: 15px;
+        border-left: 2px solid #e2e2e2;
+        position: relative;
+    }
+    .sub-user:before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        height: 2px;
+        background-color: #e2e2e2;
+        width: 27px;
+    }
+    .userPermissions .essentials {
+        padding: 8px 10px;
+    }
+    .modal.userPermissions .essentials > .form-group:last-child {
+        margin-bottom: 0px;
+    }
+    .modal.userPermissions .per-service {
+        margin-bottom: 15px;
+    }
+    .modal.userPermissions .per-service > .root.pull-left {
+        float: none !important;
+    }
+    .modal.userPermissions .per-service > .root.pull-left,
+    .modal.userPermissions .per-service > .list-checkbox.branch {
+        padding: 5px 10px;
+        margin: 0px;
+    }
+    .info-user .content-info {
+        padding: 5px 10px;
+    }
+    .info-user .content-info:nth-child(odd){
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #e2e2e2;
+    }
+    .modal .essentials {
+        padding: 10px 10px 0;
+    }
+    .permission-check .per-service .checkbox.root {
+        float: none !important;
+        margin: 0px;
+    }
+    .permission-check .per-service .checkbox.root > label {
+        font-weight: 600;
+    }
+    .permission-check .per-service .checkbox.root,
+    .permission-check .per-service .list-checkbox {
+        padding: 6px;
+        margin-bottom: -1px;
+    }
+    /*Modal style*/
+    .permission-check .per-service .list-checkbox {
+        background-color: #fff;
+    }
+    #permissionsWrap .sub-user {
+        padding-left: 15px;
+        margin-left: 15px;
+    }
+    #permissionsWrap .sub-user > .box-inner:before {
+        display: none;
+    }
+    .content-info .per-info .list-group:last-child {
+        margin-bottom: 15px;
+    }
+    #permissionsWrap .info-user > .content-info {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+
+
+
+
+

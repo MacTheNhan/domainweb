@@ -1,0 +1,155 @@
+/*-------------/Domain config style/-----------*/
+.step-wrapper {
+	margin-bottom: 25px;
+}
+.step-wrapper .alert-info-txt {
+    padding: 0px;
+}
+.linkAddToCart {
+	position: absolute;
+	top: 10px;
+	right: 0px;
+}
+.step-wrapper .inet-service {
+	padding: 15px 15px 0px;
+	background-color: #fff;
+}
+.step-wrapper .step > .box-inner > h4 {
+	padding: 8px 10px;
+	background-color: #f2f2f2;
+	margin: -8px -8px 10px !important;
+}
+#emailSolution .step {
+	padding-top: 10px;
+}
+.step-wrapper .step.step-not-option {
+	padding-top: 10px;
+}
+.step-not-option hgroup h2 {
+	margin-top: 0px;
+}
+.step-wrapper h2.step-title {
+	border-bottom: 3px solid #b6b6b6;
+    margin: 20px 0 0;
+    padding-bottom: 15px;
+    position: relative;
+}
+.style-1.step-title > .group-text {
+	background-color: #DD3B3B;
+}
+.style-2.step-title > .group-text {
+	background-color: #4894DF;
+}
+.style-3.step-title > .group-text {
+	background-color: #1EBA5C;
+}
+.step-wrapper h2.step-title .group-text {
+	font-size: 20px;
+	padding: 6px 0px;
+	display: inline-block;
+	width: 100%;
+	position: relative;
+	color: #fff;
+}
+.step-wrapper h2.step-title .group-text:before,
+.step-wrapper h2.step-title .group-text:after {
+	content: '';
+	position: absolute;
+	border-width: 17px;
+	border-style: solid;
+	top: -3px;
+}
+.step-wrapper h2.step-title .group-text:before {
+	left: -28px;
+}
+.step-wrapper h2.step-title .group-text:after {
+	right: -28px;
+}
+.step-wrapper h2.style-1 .group-text:before {
+	border-color: #dd3b3b #dd3b3b #dd3b3b transparent;
+}
+.step-wrapper h2.style-1 .group-text:after {
+	border-color: #dd3b3b transparent #dd3b3b #dd3b3b;
+}
+.step-wrapper h2.style-2 .group-text:before {
+	border-color: #4894DF #4894DF #4894DF transparent;
+}
+.step-wrapper h2.style-2 .group-text:after {
+	border-color: #4894DF transparent #4894DF #4894DF;
+}
+.step-wrapper h2.style-3 .group-text:before {
+	border-color: #1EBA5C #1EBA5C #1EBA5C transparent;
+}
+.step-wrapper h2.style-3 .group-text:after {
+	border-color: #1EBA5C transparent #1EBA5C #1EBA5C;
+}
+
+.step-wrapper h2.step-title .group-text > span {
+	position: relative;
+	z-index: 2;
+	width: 50%;
+	float: left;
+}
+.step-wrapper h2.step-title .main-text {
+	text-align: right;
+	text-transform: uppercase;
+	padding-right: 82px;
+}
+.step-wrapper h2.step-title > .step-label {
+	color: #929292;
+}
+.step-wrapper h2.step-title .sub-text {
+	text-align: left;
+	padding-left: 82px;
+}
+.step-wrapper + .step-separator {
+	margin: 10px 0px;
+}
+.step-wrapper .step .box-inner {
+	padding: 8px;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	position: relative;
+}
+.step-wrapper .step .box-inner .box-inner {
+	border: none;
+	padding: 0px;
+}
+.step-wrapper .step .box-inner .checkboxStatus {
+	left: 0;
+    position: absolute;
+    right: 0;
+    top: -18px;
+	padding: 0px; margin: 0px;
+}
+
+#emailSolution .step .dropdown > .dropdown-toggle {
+	width: 100%;
+	text-align: left;
+}
+.sv-item {
+	margin-bottom: 15px;
+}
+.sv-item.col-sm-6:nth-child(2n+3) {
+	clear: both;
+}
+
+.dmnConfig .sv-item .dropdown-menu,
+.dmnConfig .open.dropdown > .package-dropdown-wrap {
+	max-height: 360px;
+	overflow-y: auto;
+    overflow-x: hidden;
+}
+#websiteTemplate > .inet-service,
+#cloudVpsSolution > .inet-service {
+	padding-bottom: 15px;
+}
+
+.dmnConfig .sidebar-inner.affix {
+    top: 15px;
+    margin-left: 40px;
+}
+
+@media screen and (min-width: 480px) and (max-width: 1336px) {
+
+}

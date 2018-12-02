@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/**
+  iNETicon, v0.0.1
+  Created by product team TTTM for the iNETicon Framework, http://iNETicon.com/
+  https://twitter.com/iNETicon  https://twitter.com/iNETiconframework
+  MIT License: https://github.com/product/iNETicon 
+**/
+/* Url(../fonts/inetvn-font) */
+@font-face {
+  font-family: 'iNETicon';
+  src:  url('/public/fonts/inetvn-font/iNETicon.eot?9yh53s');
+  src:  url('/public/fonts/inetvn-font/iNETicon.eot?9yh53s#iefix') format('embedded-opentype'),
+  url('/public/fonts/inetvn-font/iNETicon.ttf?9yh53s') format('truetype'),
+  url('/public/fonts/inetvn-font/iNETicon.woff?9yh53s') format('woff'),
+  url('/public/fonts/inetvn-font/iNETicon.svg?9yh53s#iNETicon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+.icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'iNETicon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon.in-switchboard {
+    display: inline-flex;
+    align-items: center;
+}
+.in-switchboard:before {
+    content: 'Support 24/7';
+    font-family: monospace;
+    font-size: 12px;
+    padding: 4px 5px;
+    background-color: #727272;
+    color: #fff;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+.in-switchboard:after {
+    content: '';
+    border-width: 4px;
+    border-style: solid;
+    border-color: transparent transparent transparent #727272;
+    float: right;
+    margin-right: -5px;
+}
+
+.icon-centos:before {
+    content: "\e90f";
+}
+.icon-debian:before {
+    content: "\e915";
+}
+.icon-ubuntu:before {
+    content: "\e916";
+}
+.icon-windows:before {
+    content: "\e917";
+}
+.icon-dmn-hide-info-1:before {
+    content: "\e90d";
+}
+.icon-ssl-1:before {
+    content: "\e909";
+}
+.icon-backorder:before {
+    content: "\e900";
+}
+.icon-dmn-1:before {
+    content: "\e901";
+}
+.icon-dmn-host-combo-1:before {
+    content: "\e902";
+}
+.icon-dmn-prot-1:before {
+    content: "\e903";
+}
+.icon-dmn-prot-2:before {
+    content: "\e904";
+}
+.icon-dns-1:before {
+    content: "\e905";
+}
+.icon-dnssec-1:before {
+    content: "\e906";
+}
+.icon-email-1:before {
+    content: "\e907";
+}
+.icon-hosting-1:before {
+    content: "\e908";
+}
+.icon-ssl:before {
+    content: "\e90e";
+}
+.icon-update-records:before {
+    content: "\e90a";
+}
+.icon-vps-1:before {
+    content: "\e90b";
+}
+.icon-web-host-1:before {
+    content: "\e90c";
+}

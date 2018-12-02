@@ -1,0 +1,103 @@
+.suite-deal-page-content .header-result-inner {
+	padding: 20px 0px;
+	border-bottom: 1px solid #b6b6b6;
+}
+.suite-deal-page-content .header-result-inner .result {
+	padding: 15px 20px;
+}
+.suite-deal-des hgroup > h1,
+.suite-deal-des hgroup > h2 {
+	color: #727272;
+}
+.suite-deal-des hgroup > h1.page-title {
+	margin: 0px;
+	font-size: 22px;
+}
+.suite-deal-des hgroup > h2 {
+	font-size: 3em;
+	margin: 0px 35px 0px 0px;
+	text-transform: uppercase;
+	background-color: #4894DF;
+	color: #fff;
+	position: relative;
+	padding: 0px 8px;
+}
+.suite-deal-des hgroup > h2:after {
+	content: '';
+	border-width: 30px 30px 30px 30px;
+	border-style: solid;
+	border-color: transparent transparent transparent #4894DF;
+	position: absolute;
+	top: -7px;
+	right: -60px;
+}
+.combo-des .disclaimers {
+	padding: 10px 15px;
+	background-color: #fff;
+	border-top: 1px solid #e2e2e2;
+}
+.suite-deal-combo-info .list-combo-item {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+.suite-deal-combo-info .list-combo-item:after {
+	content: "=";
+	position: absolute;
+	font-size: 3em;
+	top: 40%;
+	right: 0px;
+	line-height: 0;
+	color: #727272;
+}
+.suite-deal-page-content .combo-des {
+	padding: 10px 20px;
+}
+.suite-deal-page-content .domain-suggest-wrapper {
+	padding: 20px;
+	margin-top: 20px;
+}
+.suite-deal-page-content .search-form-dmn-global .whois-dmn-wrap {
+	margin-bottom: 0px;
+}
+.search-form-dmn-global .type-your-business-name {
+	font-size: 16px;
+	padding: 5px 15px;
+	border-radius: 0 0 6px 6px;
+	-moz-border-radius: 0 0 6px 6px;
+	-webkit-border-radius: 0 0 6px 6px;
+	position: relative;
+	box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+	-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4); 
+	-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.4);
+	margin: 0px 15px;
+}
+.search-form-dmn-global .type-your-business-name:before {
+	content: '';
+	border-width: 23px 15px 32px 0;
+	border-style: solid;
+	border-color: transparent transparent #f2f2f2;
+	position: absolute;
+	left: 0px;
+	top: -41px;
+}
+.suite-deal-combo-info > ol > li {
+	float: left;
+	list-style: none;
+}
+.suite-deal-combo-info > ol > li.calculations {
+	margin: 0px 18px;
+	font-size: 3.5em;
+	color: #727272;
+}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,19 @@
+md-list > md-list-item > .stt {
+	background-color: #e2e2e2;
+}
+md-list > md-list-item > .stt,
+md-list > md-list-item .md-list-item-text {
+	padding: 8px 10px;
+}
+.txt-format-rawtext > span.ng-binding {
+	white-space: pre-line;
+}
+/* order/order-list */
+.md-dialog-content .md-subheader-inner {
+	padding: 8px 0px;
+}
+
+.md-dialog-content md-list-item .md-no-style, 
+.md-dialog-content md-list-item.md-no-proxy {
+	padding: 0px;
+}

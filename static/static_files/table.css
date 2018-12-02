@@ -1,0 +1,330 @@
+﻿/*-----------------/global style/-----------------*/
+tr.is-open,
+tbody > tr:hover,
+tbody > tr:focus,
+tbody > tr:focus:active,
+tbody > tr.even:hover,
+tbody > tr.even:focus,
+tbody > tr.even:focus:active,
+tbody > tr.set-default {
+	background-color: #e8eef3;
+}
+.mt-table tbody > tr.active > td {
+    background-color: #6fa1d6;
+    color: #fff;
+}
+.mt-table tbody > tr.active > td .txt-red-c61818 {
+    color: #fff67a;
+}
+.mt-table tr.active > td a:not(.btn) {
+    color: #c6e7ff;
+}
+.mt-table tr.active > td a:not(.btn):focus,
+.mt-table tr.active > td a:not(.btn):hover {
+    opacity: .85;
+}
+tbody > tr.even {
+	background-color: #f2f2f2;
+}
+td input[type="radio"], 
+td input[type="checkbox"] {
+	margin: 0px;
+}
+tbody > tr.odd {
+	background-color: #fff;
+}
+td .price-sale {
+	display: block;
+}
+.vertical-align .price-sale {
+	display: inline;
+}
+table.dataTable {
+	margin: 0px !important;
+}
+.table {
+	background-color: #fff;
+}
+tbody.last-in-list .divider {
+	display: none;
+}
+.table-content th > .input-field,
+.table-content td > .input-field {
+	display: block;
+}
+td label.radio-inline {
+    vertical-align: inherit;
+}
+/*-----------------/Quan ly ten mien/-----------------*/
+.dataTable #TableAction {
+	margin: 0px;
+	border-width: 0px 0px 1px;
+}
+#TableAction {
+	background-color: #fff;
+	padding: 8px 10px;
+	margin: 0px 0px 10px;
+	border: 1px dashed #e2e2e2;
+}
+.dataTables_wrapper {
+	background-color: #fff;
+}
+.dataTables_wrapper thead > tr > th:first-child,
+.dataTables_wrapper thead > tr > th:nth-child(0) {
+	padding-right: 0px;
+}
+.dataTables_wrapper thead > tr > th:first-child label[for="CheckAll"],
+.dataTables_wrapper thead > tr > th:nth-child(0) label[for="CheckAll"] {
+	font-size: 0px;
+	position: relative;
+}
+.dataTables_wrapper thead > tr > th:first-child label[for="CheckAll"]:before,
+.dataTables_wrapper thead > tr > th:nth-child(0) label[for="CheckAll"]:before {
+	content: "Chọn tất cả";
+	display: none;
+	background-color: #727272;
+	border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+	color: #fff;
+	font-size: 14px;
+	left: -42px;
+	padding: 2px 6px;
+	position: absolute;
+	right: -38px;
+	top: -28px;
+	z-index: 9;
+}
+#CheckAll {
+	margin: 0px;
+}
+.dataTables_wrapper thead > tr > th:first-child label[for="CheckAll"]:hover:before,
+.dataTables_wrapper thead > tr > th:nth-child(0) label[for="CheckAll"]:hover:before,
+.dataTables_wrapper thead > tr > th:first-child label[for="CheckAll"]:focus:before,
+.dataTables_wrapper thead > tr > th:nth-child(0) label[for="CheckAll"]:focus:before {
+	display: block;
+}
+/*-----------------/dataTable filter style/-----------------*/
+.dataTables_filter,
+.dataTables_paginate {
+	text-align: right;
+}
+div.dataTables_filter > label {
+	width: 100%;
+	color: #525252;
+	font-weight: 400;
+	text-align: right;
+}
+.dataTables_filter > label > input[type="search"]{
+	width: 220px;
+	height: auto;
+}
+/*-----------------/dataTable content style/-----------------*/
+.dataTable > thead > tr > th {
+	background-color: #f2f2f2;
+}
+.dataTable > thead > tr > th,
+.dataTable > tbody > tr > td {
+	padding: 12px 8px;
+}
+.dataTable > tbody > tr > td {
+	vertical-align: middle;
+}
+/*-----------------/pagination style/-----------------*/
+.dataTables_paginate .pagination {
+	margin-bottom: 0px;
+}
+.dataTables_info {
+	color: #525252;
+}
+.pagination > .active > a, 
+.pagination > .active > span, 
+.pagination > .active > a:hover, 
+.pagination > .active > span:hover, 
+.pagination > .active > a:focus, 
+.pagination > .active > span:focus {
+	background-color: #b6b6b6;
+	border-color: #b6b6b6;
+}
+.show-row-table .label-control {
+	font-weight: 400;
+}
+.show-row-table .label-control,
+.show-row-table .label-control select.form-control {
+	display: inline;
+}
+.show-row-table .label-control select.form-control {
+	width: auto;
+}
+/*-------------------/Table don hang style/------------------*/
+.order-table thead tr {
+	background-color: #525252;
+	color: #fff;
+}
+.order-table thead th {
+	border-right: 1px solid #727272;
+}
+.order-table thead th:last-child {
+	border-right: none;
+}
+.order-table > tbody > tr > td {
+	border: none;
+}
+.order-table thead th,
+.order-table tbody td {
+	padding: 8px 10px; 
+}
+.cart-order-sum .sidebar-title {
+	margin-top: 0px;
+}
+/*-------------------/Search Whois and Check DomainName/------------------*/
+#dataDmnRegistration {
+	margin: 0px !important;
+}
+.tableWrapper .TopDmnFeature .dataTables_wrapper {
+	padding: 0px;
+}
+.tableWrapper .dataTables_wrapper {
+	padding: 6px;
+}
+.tableWrapper .header-box {
+	margin: 0px 0px 10px;
+}
+#datatableDmnGeneric_wrapper {
+	padding: 6px 8px;
+	background-color: #929292;
+}
+#domainNameCheck {
+	margin: 15px 0px;
+}
+#dmnSuggestion {
+	padding: 8px;
+	background-color: #f2f2f2;
+	border: 1px solid #e2e2e2;
+}
+/*-------------------/Results DomainName not .vn and valiable .com/------------------*/
+.dmnOneGnrDefault {
+	padding: 5px;
+	border: 1px dashed #e2e2e2;
+	margin-top: 15px;
+}
+
+/*--------Whois domain name suggestion --------*/
+.sugges-feature-domain-wrap .table-wrap {
+	padding: 5px;
+	background-color: #f2f2f2;
+}
+/*-------------------/Whois invisible style/------------------*/
+
+/*------------ Table style in service ------------*/
+.mt-table tr.is-open > td {
+    padding: 15px;
+}
+.mt-table thead > tr > th,
+.mt-table tbody > tr > td {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    vertical-align: middle;
+}
+.mt-table tr.is-open > td {
+    position: relative;
+    border-top: none;
+}
+.mt-table tr.is-open > td:before {
+    content: "";
+    border-width: 7px;
+    border-style: solid;
+    border-color: #6fa1d6 transparent transparent transparent;
+    position: absolute;
+    top: 0;
+    margin-top: -1px;
+}
+.mt-table tr.is-open > td > .table:not([class*=bg]) {
+    margin: 0px;
+    background-color: transparent;
+}
+.mt-table tr.is-open > td > .table tr:hover,
+.mt-table tr.is-open > td > .table tr:focus {
+    background-color: transparent;
+}
+.mt-table tr.is-open > td > .table tr > td {
+    border-top: none;
+}
+.mt-table tr td .btn {
+    padding: 8px 15px;
+    transition: all 0.08s linear 0.05s;
+    -o-transition: all 0.08s linear 0.05s;
+    -moz-transition: all 0.08s linear 0.05s;
+    -webkit-transition: all 0.08s linear 0.05s;
+}
+
+.mt-table tr.active td .btn {
+    border: none;
+}
+
+.mt-table tr td > .btn:hover,
+.mt-table tr td > .btn:focus {
+    background-color: #fff;
+    border-color: #b4b4b4;
+    color: #727272;
+}
+.mt-table tr td .btn-more {
+    display: inline-block;
+}
+
+.mt-table tr td .btn-more > .dropdown-menu {
+    left: inherit;
+    right: 0;
+}
+.mt-table tr.is-open td > .table tr > td .btn {
+    font-weight: 600;
+    border: none;
+}
+.mt-table tr.is-open td > .table tr > td .btn:not(:last-child) {
+    margin-right: 10px;
+}
+.mt-table tr.is-open td > .table tr > td .btn:hover {
+    background-color: #fff;
+    border-color: #4894df;
+}
+.mt-table tr td .btn.btn-sm {
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.mt-table .mt-table th,
+.mt-table .mt-table td {
+    color: #424242;
+}
+/*---------------- Table multil level style -------------*/
+/*material dark color ui*/
+.mt-table tr.mt-table-dark > td {
+    background-color: #424242;
+    color: #d2d2d2;
+}
+/*material light color ui*/
+.mt-table tr.mt-table-light > td {
+    background-color: #f3f8ff;
+    color: #424242;
+}
+
+/*----------- Price table ui ----------------*/
+.price-table {
+    text-align: center;
+}
+.price-table .price-table-inner {
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,.25);
+    -moz-box-shadow: 0px 0px 15px 0px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,.25);
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.price-table .price-table-inner .price-header {
+    padding: 5px 10px;
+    background-color: #91bdea;
+    color: #fff;
+}
+.price-table .price-table-inner .price-content {
+    padding: 30px 10px;
+}

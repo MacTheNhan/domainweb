@@ -1,0 +1,9 @@
+#footer-wrapper .img-thumbnail {
+	padding: 2px;
+	border: none;
+	border-radius: 0;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	position: absolute;
+	right: 0px;
+}

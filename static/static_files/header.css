@@ -1,0 +1,373 @@
+#header {
+	position: relative;
+}
+#header .header-inner {
+	padding: 0px;
+	margin: 0px;
+    background-color: #e2e2e2;
+}
+#header .inet-navbar-header {
+	border: none;
+	margin: 0px;
+	background: none;
+    min-height: inherit;
+    max-height: 48px;
+}
+#header .inet-navbar-header .control-menu.navbar-collapse.collapse {
+    height: 50px !important;
+}
+#header .top-header-wrap {
+	background-color: #fff;
+	max-height: 48px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+}
+/*------------ Heading style -----------------*/
+.heading-solid-bottom-title {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.heading-solid-left-title {
+    padding: 8px;
+    border-left: 3px solid #0e83bf;
+    display: inline-block;
+    background-color: #f2f2f2;
+}
+.navbar-nav.main-menu {
+	margin-left: -15px;
+}
+.top-ads {
+    background-color: #4b82bc;
+    color: #b9d6f5;
+}
+.bottom-heder-wrap.inet-fixed-static {
+    background-color: transparent;
+}
+.bottom-heder-wrap.inet-fixed-static.inet-fixed-top {
+    background-color: #f8f8f8;
+}
+
+/*----------------/Logo branding/------------------*/
+header .navbar-brand {
+    padding: 10px 0px;
+}
+/*--------------/iNET - nhà đăng ký tên miền hỗ trợ KH tốt nhất/-------------*/
+.rippon-header {
+	margin-top: -40px;
+	margin-bottom: 0px;
+}
+/*--------------/Support hotline/-------------*/
+.quick-support > li,
+.quick-support > li a {
+	color: #727272;
+}
+.quick-support > li {
+	padding-left: 20px;
+	margin-left: 20px;
+	border-left: 1px dashed #ccc;
+	font-size: 12px;
+}
+.quick-support > li:first-child {
+	border-left: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+
+.quick-support > li > p {
+	margin: -5px 0px 3px;
+	padding-bottom: 2px;
+	color: #525252;
+	border-bottom: 1px solid #e2e2e2;
+}
+.quick-support > li .icon {
+	color: #929292;
+}
+/*--------------/Dang nhap, Account style/-------------*/
+.control-menu *[class*=account] .dropdown-menu {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.account-logout > .dropdown-toggle {
+    height: 48px;
+}
+.navbar-default .control-menu .navbar-nav > .open > a, .navbar-default .control-menu .navbar-nav > .open > a:hover, .navbar-default .control-menu .navbar-nav > .open > a:focus {
+    background-color: #424242;
+    color: #e2e2e2;
+}
+
+#accountInfo.ng-scope,
+#accountInfo.close-acc {
+	overflow: hidden;
+	transition: all 0.25s ease 0s;
+	-moz-transition: all 0.25s ease 0s;
+	-webkit-transition: all 0.25s ease 0s;
+} 
+#accountInfo.close-acc {
+	display: none;
+	opacity: 0;
+}
+#accountInfo.ng-scope.open-acc {
+	display: block;
+	opacity: 1;
+	position: absolute;
+	z-index: 9999;
+	width: 100%;
+}
+#accountInfo .nav-inner {
+	padding: 15px 0px;
+}
+#accountInfo .quick-link h3 {
+	margin-top: 0px;
+	color: #424242;
+	font-size: 18px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e4e4e4;
+}
+#accountInfo .list-link > li {
+	padding: 5px 0px;
+}
+#accountInfo .list-link > li > a > i.incon {
+	font-size: 18px;
+	margin-right: 10px;
+	vertical-align: sub;
+}
+#accountInfo .accInfo-2 h3 > a {
+	color: #2196f3;
+}
+.control-menu ul > li.open > ul {
+    padding: 0;
+    background-color: #424242;
+    top: 100%;
+    right: 0px;
+    max-width: 300px;
+    color: #e2e2e2;
+}
+.control-menu ul > li > ul > li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.control-menu ul > li.open > ul > li > a {
+	color: #b2b2b2;
+}
+.control-menu ul > li > .open-acc {
+	bottom: -12px;
+    font-size: 28px;
+    height: inherit;
+    left: 45%;
+    line-height: 1;
+    position: absolute;
+}
+.control-menu ul > li.hotline > span {
+	display: inline-block;
+	padding: 8px 15px 8px 5px;
+	color: #f5d76e;
+	font-weight: 600;
+}
+.control-menu ul > li.hotline > span:first-child {
+	padding: 8px 0;
+	color: #fff;
+	font-weight: 400;
+}
+
+.control-menu ul > li > a {
+	padding: 14px 15px;
+}
+.control-menu ul > li > a {
+	color: #f2f2f2;
+	position: relative;
+	z-index: 10;
+}
+.control-menu ul > li.account-login > a.your-acc-name {
+	background-color: #498fd7;
+	color: #f2f2f2;
+}
+.control-menu ul > li > a.your-acc-name {
+	font-weight: 600;
+	color: #498fd7;
+	position: relative;
+}
+
+.control-menu ul > li.open > a.your-acc-name:before {
+	content: '';
+	border-width: 6px;
+	border-style: solid;
+	border-color: transparent transparent #424242;
+	position: absolute;
+	left: 16px;
+	bottom: 0px;
+}
+.control-menu ul > li > a.your-acc-name > .wallet {
+	color: #50B9F9;
+	margin: 0px 5px;
+    padding-left: 8px;
+	border-left: 1px solid #50B9F9;
+}
+.control-menu ul > li > a:focus,
+.control-menu ul > li > a:active,
+.control-menu ul > li.open > a,
+.control-menu ul > li.open > a:hover,
+.control-menu ul > li.open > a:focus {
+	background-color: #f8f8f8;
+}
+.control-menu ul > li > a:hover,
+.control-menu ul > li > a:focus {
+	background-color: rgba(255,255,255,.1);
+}
+
+.control-menu .navbar-right li > i {
+	font-size: 17px;
+	line-height: 1;
+}
+.phone-support > a:hover .in-switchboard {
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+.phone-support.sp-link > a,
+.inet-navbar-header .phone-support.sp-link > a {
+    color: #4b82bc;
+}
+.phone-support.sp-link > a:hover,
+.inet-navbar-header .phone-support.sp-link > a:hover {
+    color: #5894d4;
+}
+.control-menu ul > li.sp-link > a {
+	font-weight: 600;
+}
+.navbar-default .control-menu ul > li .check-out,
+.navbar-default .control-menu ul > li .check-out:focus,
+.navbar-default .control-menu ul > li .check-out:hover {
+	color: #dd3b3b;
+}
+.control-menu ul > li.cart-menu .badge {
+	color: #fff;
+	font-size: 11px;
+	font-weight: 400;
+	padding: 3px 4px;
+}
+.control-menu ul > li.cart-menu .check-out .badge {
+	background-color: #dd3b3b;
+}
+.control-menu li > .dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 2px 10px 3px rgba(0,0,0,.15);
+    -moz-box-shadow: 0 2px 10px 3px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0 2px 10px 3px rgba(0,0,0,.15);
+}
+
+/*-------- Language header style ---------*/
+.i-navbar-collapse .language > .btn,
+.i-navbar-collapse .language .dropdown-menu {
+    border: none;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+.i-navbar-collapse .language > .btn:hover,
+.i-navbar-collapse .language .dropdown-menu,
+.i-navbar-collapse .language.open > .dropdown-toggle.btn-default,
+.i-navbar-collapse .language.open > .dropdown-toggle.btn-default:hover,
+.i-navbar-collapse .language.open > .dropdown-toggle.btn-default:focus {
+    background-color: #e2e2e2;
+}
+.i-navbar-collapse .language > .btn {
+    margin: 0px;
+    padding: 14px 12px;
+}
+.i-navbar-collapse .language .dropdown-menu {
+    margin: 0px;
+}
+.i-navbar-collapse .language .dropdown-menu li > a {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.right-sidebar .new-update,
+.account-logout .new-update {
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+    right: 0;
+}
+.right-sidebar.open .new-update,
+.account-logout.open .new-update {
+    display: none;
+}
+.sidebar-menu .new-update-current,
+.right-sidebar .new-update-current,
+.account-logout .new-update-current {
+    position: absolute;
+    right: 6px;
+    font-size: 14px;
+}
+.account-logout .new-update-current {
+    margin-top: 5px;
+}
+
+.account-logout .dropdown-menu {
+	min-width: 250px;
+}
+.account-logout .dropdown-menu li > .header-title {
+	margin: 0px;
+	padding: 7px 15px;
+    background-color: rgba(255,255,255,.05);
+    font-family: Arial;
+}
+
+.account-logout .dropdown-menu li > a {
+	padding: 5px 15px;
+}
+
+.account-logout .dropdown-menu li > a.logout {
+	border-top: 1px solid #e2e2e2;
+}
+
+.navbar-coupons > .coupons > a {
+	font-weight: 600;
+	color: #dd3b3b;
+	padding-top: 14px;
+	padding-bottom: 14px;
+}
+.navbar-coupons > .coupons > a:hover,
+.navbar-coupons > .coupons > a:focus {
+	color: #1976d2;
+}
+
+
+@media (min-width: 769px) {
+	.main-menu.navbar-nav>li>a.active.home {
+		background-color: #498fd7;
+	}
+	.bottom-heder-wrap .navbar-nav > li > a {
+		padding-top: 12px;
+		padding-bottom: 12px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .top-header-quick-link {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+    }
+    .top-header-quick-link .notifications.open {
+        margin-top: -5px;
+    }
+    .right-sidebar {
+        position: relative;
+    }
+    .right-sidebar .new-update {
+        margin-top: -12px;
+        right: 3px;
+    }
+    .sidebar-menu .new-update-current {
+        margin: 4px 10px 0px 0px;
+        position: static;
+    }
+}
+
+
+

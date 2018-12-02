@@ -1,0 +1,53 @@
+/* global style */
+.alert-data-not-found {
+	border-color: #e2e2e2;
+	background-color: #f8f8f8;
+}
+.panel-body .alert-data-not-found {
+	margin-bottom: 0px;
+}
+
+.ms {
+    bottom: -17px;
+    font-size: 12px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: 4;
+}
+.ms-success {
+	border-top: 3px solid #26c281;
+	color: #1eba5c;
+}
+.ms-error {
+	border-top: 2px solid #E74C3C;
+	color: #c61818;
+}
+#promotion-code .alert-notify {
+	position: relative;
+	display: block;
+	margin-bottom: 10px;
+}
+#promotion-code .alert-notify:before {
+	content: "";
+	border-width: 8px;
+	border-style: solid;
+	border-color: #FAEBCC transparent transparent;
+	position: absolute;
+	bottom: -16px;
+	right: 46%;
+}
+/*-------- material design alert ---------*/
+.alert.mt-alert {
+    border: none;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,.25);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.25);
+}
+.mt-alert:not(.alert-warning):not(.alert-danger):not(.alert-info):not(.alert-success) {
+    background-color: #f2f2f2;
+    color: #424242;
+}

@@ -1,0 +1,56 @@
+.select-custom > select {
+	display: none !important;
+}
+.select-custom .cs-placeholder {
+	padding: 6px 18px 6px 8px;
+	font-size: 15px;
+	width: 145px;
+}
+.select-custom.cs-active .cs-placeholder {
+	padding-bottom: 8px;
+}
+/*iNET select-default*/
+.select-default.select-custom {
+	border: none;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	padding: 0px;
+	margin: 0px;
+}
+.select-default .cs-placeholder {
+	background-color: #fff;
+	border: 1px solid #d2d2d2;
+	background-color: #fff;
+	border-radius: 4px; -moz-border-radius: 4px; -webkit-border-radius: 4px;
+}
+.select-default .cs-placeholder:after {
+	content: "\f3d0";
+	font-family: "Ionicons";
+}
+.select-default .cs-options {
+	background-color: #fff;
+	border: 1px solid #e2e2e2;
+	top: 34px;
+}
+.select-default .cs-options ul > li {
+	border-bottom: 1px solid #e2e2e2;
+}
+.select-default .cs-options ul > li:hover,
+.select-default .cs-options ul > li:focus {
+	border-color: #c61818;
+	color: #c61818;
+}
+.select-default .cs-options ul > li:hover > span,
+.select-default .cs-options ul > li:focus > span {
+	color: #c61818;
+}
+.select-default .cs-options ul > li > span {
+	padding: 8px 10px;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: none;
+}

@@ -1,0 +1,122 @@
+.domainInfo {
+    font-size: 16px;
+    margin-bottom: 14px;
+}
+.domainInfo .domainname {
+    font-weight: 600;
+}
+.btn-update {
+	margin-top: 10px;
+}
+.body-content .header-content {
+	margin-bottom: 15px;
+}
+.domain-price-list .whois-dmn-wrap .btn-search-action {
+    min-height: inherit;
+}
+/*--------------Start Whois Invisible ---------------*/
+#whois-protect-check-list .table-content,
+#whois-protect-check-list .btnActionGroup {
+	background-color: #fff;
+	padding: 8px 10px;
+}
+/*-------------- Quan ly domain ---------------*/
+.panel-wrap {
+	margin-bottom: 25px;
+}
+.panel-wrap .panel-footer .help-record {
+	margin: 0px;
+	border: 1px solid #e2e2e2;
+	padding: 8px 14px;
+}
+.panel-wrap .addNote {
+    margin-bottom: 15px;
+}
+#dmnHideWhoisInfo .header-content {
+    margin-bottom: 15px;
+}
+#domain_updateRecords .panel-footer .addNote {
+    margin-bottom: 15px;
+}
+#domain_updateRecords .panel-footer .list-item {
+    padding: 0px;
+    list-style: inside decimal;
+    margin: 0px;
+}
+.panel-wrap .panel-footer .help-record .list-item > li {
+    padding: 8px 0px;
+    border-bottom: 1px dotted rgba(0,0,0,0.25);
+	color: #424242;
+}
+.domain-detail-info {
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px dashed #b4b4b4;
+    margin-bottom: 10px;
+}
+
+.mt-table-dark td > .domain-detail-info {
+    background-color: #4c4c4c;
+    border: 1px dashed #626262;
+}
+
+.mt-table-light td > .domain-detail-info {
+    background-color: #e2e2e2;
+    border: 1px dashed #b6b6b6;
+}
+
+.group-switch-check.lock-unlock-domain {
+    display: inline-block;
+    min-width: 123px;
+    margin-right: 10px;
+    font-weight: 600;
+}
+/*---------------------/Update DNS style/--------------------*/
+.added-dns {
+	margin-bottom: 25px;
+}
+.added-dns:last-child {
+	margin-bottom: 0px;
+}
+/*------------ Domain update record -----------*/
+.update-record .inet-navbar-header.inet-fixed-top {
+    display: flex;
+}
+
+.update-record .inet-navbar-header.inet-fixed-top .add-record-wrap.hide {
+    flex: 1;
+    display: flex !important;
+    align-items: center;
+}
+.update-record .inet-navbar-header.inet-fixed-top .add-record-wrap.hide > *:first-child {
+    margin-left: 0px;
+}
+.update-record .inet-navbar-header.inet-fixed-top .add-record-wrap.hide > * {
+    margin: 8px;
+    flex: 1;
+}
+.update-record .inet-navbar-header.inet-fixed-top .note-messages {
+    top: 100%;
+    margin-top: 10px;
+}
+.update-record .inet-navbar-header.inet-fixed-top .note-messages:before {
+    border-color: transparent transparent #333;
+    bottom: inherit;
+    top: -12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

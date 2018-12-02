@@ -1,0 +1,96 @@
+/*------ iNET form ui design --------*/
+.search-term .form-group {
+    margin-bottom: 0px;
+}
+/*Basic style*/
+form.inet-frm-ui-basic .form-control {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+form.inet-frm-ui-basic .form-control {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+}
+
+
+.form-group .price-sale {
+	display: inline;
+}
+.form-group.customize-package {
+	border-top: 1px solid #e2e2e2;
+    margin: 0;
+    padding: 20px 15px;
+}
+.form-group.customize-package:nth-child(odd){
+	background-color: #f8f8f8;
+}
+.form-group rzslider {
+	margin-top: 14px;
+}
+.form-group .alert {
+	font-weight: 600;
+    margin: 0 15px;
+    padding: 5px 8px;
+}
+.form-group mark {
+	font-size: 12px;
+	font-style: italic;
+}
+.form-group .tabsSvr {
+	background-color: #f2f2f2;
+}
+.tabsSvr .nav-tabs > li > a {
+	margin: 0px;
+}
+.form-group .tabsSvr .tab-content {
+	background-color: #fff;
+}
+/*Radio style
+  -----------> default <-------
+  description: radio duoc su dung ma icon tu http://ionicons.com/ da download ma ve local filename (ionicons-code.css)
+*/
+.radio-default input {
+	display: none;
+}
+.radio-default input + label {
+	position: relative;
+	cursor: pointer;
+}
+.radio-default input + label:before {
+	content: "\f401";
+	color: #727272;
+}
+.radio-default input + label:after {
+	display: none;
+}
+.radio-default input:checked + label:before {
+	display: none;
+}
+.radio-default input:checked + label:after {
+	content: "\f3ff";
+	display: block;
+	color: #1EBA5C;
+}
+.radio-default input + label:before,
+.radio-default input:checked + label:after {
+	position: absolute;
+	font-family:"Ionicons";
+	left: 0px;
+	top: 0px;
+	font-size: 1.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

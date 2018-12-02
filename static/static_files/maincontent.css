@@ -1,0 +1,206 @@
+.content > .content-inner {
+	background-color: #12569C;
+	padding: 1px 10px 10px;
+}
+.bieu-mau-ho-so #main-content .list-file-form > ul > li:hover > * {
+	background-color: #f8f8f8;
+}
+
+/*------------------/AccInfo/-----------------*/
+#AccInfo {
+	margin: 20px 0px 15px;
+	padding-bottom: 14px;
+	border-bottom: 1px solid #e2e2e2;
+}
+#AccInfo .infoBox-1 .infoBox {
+	display: table-cell;
+	vertical-align: middle;
+}
+#AccInfo .infoBox-2 .infoBox {
+	float: right;
+}
+#AccInfo .infoBox-1 .infoBox {
+	padding-right: 20px;
+}
+#AccInfo .infoBox-2 .infoBox {
+	margin-left: 10px;
+}
+#AccInfo .infoBox-1 .infoBox:last-child {
+	padding-right: 0px;
+}
+.infoBox .ratingLevel,
+.infoBox > i.fa {
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+.infoBox > i.fa {
+	background-color: #f2f2f2;
+	border: 1px solid #b6b6b6;
+	padding: 5px 8px;
+	color: #727272;
+}
+.infoBox #despositeBalance {
+	color: #c61818;
+	font-weight: 600;
+}
+.infoBox .ratingLevel {
+	color: #ffbe58;
+	padding: 2px 6px;
+	border: 1px solid #e2e2e2;
+    display: inline-block;
+}
+.infoBox .btn-recharge {
+	font-weight: 600;
+	font-size: 13px;
+	overflow: hidden;
+}
+.infoBox .btn-recharge > i.fa-usd {
+	color: #ffca12;
+	padding: 5px 10px;
+	background-color: #cd2e2e;
+	margin-right: 4px;
+}
+.promotion,
+.notifications {
+	position: relative;
+}
+.infoBox .dropdown-menu {
+	padding: 0px;
+	width: 250px;
+	left: -159px;
+	top: 28px;
+	box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0px 5px 14px 0px rgba(0,0,0,0.2);
+}
+
+.promotion .dropdown-menu {
+	border-top: 2px solid #5CB85C;
+}
+.infoBox.open > .dropdown-menu:before {
+	content: '';
+	border-width: 6px;
+	border-style: solid;
+	position: absolute;
+	width: 0px; height: 0px;
+	top: -13px;
+}
+.promotion.open > .dropdown-menu:before {
+	border-color: transparent transparent #5CB85C;
+	right: 56px;
+}
+.notifications.open > .dropdown-menu:before {
+	border-color: transparent transparent #F0AD4E;
+	right: 6px;
+}
+.infoBox .dropdown-menu > li {
+  padding: 5px 8px;
+}
+.notifications .menu > li {
+	padding: 8px 0px;
+	border-bottom: 1px solid #e2e2e2;
+}
+li.header {
+	font-weight: 600;
+}
+li.header,
+li.footer {
+  background-color: #f2f2f2;
+}
+li.footer > a{
+	text-align: center;
+	color: #1976D2;
+}
+li.footer > a:hover,
+li.footer > a:focus,
+li.footer > a:focus:active {
+  color: #2196f3;
+}
+.infoBox .dropdown-menu .menu {
+	padding-left: 0px;
+	list-style: none;
+}
+.infoBox .dropdown-menu .menu h3{
+	font-size: 14px;
+}
+.infoBox .dropdown-menu .menu .progress {
+	height: 8px;
+}
+/*------------------/campaign khuyen mai/-----------------*/
+#campaign .campaign-box {
+	cursor: pointer;
+}
+#campaign .campaign-box:hover > .box-inner {
+	background-color: #fff8dc;
+}
+#campaign .campaign-box > .box-inner {
+	background-color: #fff8d0;
+	padding: 10px 14px;
+	border: 1px solid #b6b6b6;
+}
+#campaign .campaign-box .txt-headline {
+	margin-top: 0px;
+	font-size: 18px;
+	color: #1976D2;
+}
+#campaign .campaign-box .txt-headline > i.fa {
+	font-size: 20px;
+}
+.link-campaign {
+	color: #c61818;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.link-campaign:hover,
+.link-campaign:focus,
+.link-campaign:focus:active {
+	color: #d6232e;
+}
+/*------------------/Whois Protech style/-----------------*/
+.whoisProtect .wp-box {
+	padding: 10px 15px;
+	border-width: 2px;
+	border-style: dashed;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.whoisProtect .wp-box .DmnWP,
+.registantDmnInfo .rDmnInfo-title {
+	color: #525252;
+}
+.DmnWP .domainName {
+	font-size: 16px;
+}
+.whoisProtect .noWP {
+	border-color: #1976D2;
+	color: #1976D2;
+}
+.whoisProtect .privateWP {
+	border-color: #c61818;
+	color: #c61818;
+}
+.whoisProtect .wp-box .wp-title {
+	margin-top: 0px;
+}
+.registantDmnInfo .list-info {
+	list-style: none;
+	padding: 0px;
+} 
+.registantDmnInfo .list-info li {
+	border: 1px dashed #e2e2e2;
+	padding: 5px 8px;
+	margin-bottom: -1px;
+}
+.arrow-style .ion-arrow-right-a {
+	font-size: 11em;
+	color: #e2e2e2;
+	line-height: 1;
+}
+/*-----------------/Sidebar/----------------*/
+.sidebar ul {
+	padding: 0px;
+	list-style: none;
+}
+

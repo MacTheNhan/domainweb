@@ -1,0 +1,27 @@
+.aff-thumbnail {
+    overflow: hidden;
+    height: 120px;
+}
+
+.aff-thumbnail img {
+    max-height: 100%;
+}
+
+#affiliate-top .news-update .link-policy {
+    display: inline-block;
+}
+#affiliate-top .news-update .link-policy.active {
+    border-bottom: 1px solid #e2e2e2;
+    position: relative;
+    padding-bottom: 8px;
+}
+#affiliate-top .news-update .link-policy.active:before {
+    content: "";
+    border-width: 6px;
+    border-style: solid;
+    border-color: #e2e2e2 transparent transparent;
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    margin-left: -3px;
+}

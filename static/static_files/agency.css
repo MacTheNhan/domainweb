@@ -1,0 +1,93 @@
+.dai-ly .ldp-intro {
+    background: #4b82bc url("/public/img/service/agency-intro.jpg") no-repeat top center / cover;
+    border-top: 5px solid #4b82bc;
+    color: #f2f2f2;
+}
+.dai-ly .ldp-feature {
+    background: #fff url("/public/img/service/your-right.jpg") no-repeat center center / cover;
+}
+.dai-ly .ldp-feature ul {
+    display: flex;
+    flex-flow: wrap;
+}
+.dai-ly .ldp-feature ul > li {
+    flex-grow: 2;
+    flex-basis: 25%;
+    padding: 10px;
+    background-color: #86af1e;
+    color: #fff;
+    margin: 15px;
+    font-size: 16px;
+    font-weight: 600;
+    box-shadow: 0px 3px 4px 0px rgba(0,0,0,.25);
+    -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,.25);
+    -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,.25);
+}
+
+.dai-ly .payments {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.dai-ly .payments .pm-box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 2;
+    float: left;
+    width: 50%;
+    margin-bottom: 10px;
+}
+.dai-ly .payments .pm-box:nth-child(2n+3) {
+    clear: left;
+}
+
+.dai-ly .payments .pm-box .box-content {
+    flex: 1;
+    background-color: #f2f2f2;
+    padding: 5px 10px;
+}
+.dai-ly .payments .pm-box .check-box-item {
+    padding: 5px 15px;
+    background-color: #e2e2e2;
+}
+
+.agency-success-wrap .page-header {
+    background: #2ecc71 url("/public/img/service/agency-success-title-background_sky.png") repeat-x center bottom;
+    margin: 0;
+    border: none;
+    position: relative;
+}
+.agency-success-wrap .page-header:before {
+    content: "";
+    background: transparent url("/public/img/service/agency-success-title-background.png") no-repeat center top;
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    right: 0px;
+    height: 120px;
+}
+.agency-success-wrap .page-header h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 130px;
+}
+
+.agency-success-wrap .message-notify {
+    margin: 15px 0px;
+}
+
+@media screen and (min-width: 660px){
+    #agency-register .frm-style-material {
+        width: 600px;
+        margin: 0 auto 30px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .dai-ly .ldp-feature ul {
+        flex-flow: column;
+    }
+    .dai-ly .ldp-feature ul > li {
+        margin: 0px 0px 15px;
+    }
+}

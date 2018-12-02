@@ -1,0 +1,745 @@
+/*--------------/Global style/------------*/
+.headerResultWrap {
+	padding: 20px 0px;
+}
+.tableWrapper {
+	padding-top: 25px;
+}
+.form-wrap .search-form {
+	margin: 28px 0px 48px;
+}
+.homepage .form-wrap .search-form {
+	margin: 30px 0px;
+}
+.sidebar .box-sidebar {
+    margin: 62px 0px 45px;
+}
+.sidebar .continue-cart {
+    padding: 0px;
+    background-color: transparent;
+}
+.sidebar .continue-cart.inet-fixed-static.inet-fixed-top {
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+.affix-sidebar #continueCart,
+.affix-bottom #continueCart {
+	margin-top: 5px;
+}
+.whois-results {
+	position: relative;
+}
+.domain-register #header {
+	border-bottom: none;
+}
+.result > .row {
+    display: flex;
+    align-items: center;
+}
+/*--------------/Affix Search style/------------*/
+/*-------------/style gio hang dang ky ten mien moi/------------*/
+#continueCart .linkCartContinue {
+	background-color: #c61818;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	display: block;
+	margin: 0 0 10px;
+	padding: 8px 10px;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #fff;
+	text-align: center;
+}
+#continueCart .order-length {
+	font-weight: 600;
+}
+#continueCart .linkCartContinue:hover,
+#continueCart .linkCartContinue:focus {
+	background-color: #d6232e;
+}
+#continueCart .linkCartContinue.disabled {
+	background-color: #727272;
+}
+
+.whois-search {
+	background-color: #e2e2e2;
+}
+.whois-search.affix-search {
+	position: fixed;
+	z-index: 999;
+	width: 100%;
+	padding: 15px 0px;
+}
+.whois-search.affix-search .search-form .input-group-lg .input-search {
+	padding: 10px 15px;
+}
+.whois-search.affix-search .search-form .input-group-btn .btn-search {
+	padding: 10px 20px;
+}
+.whois-search.affix-search #continueCart .linkCartContinue {
+	padding: 12px 10px;
+	font-size: 18px;
+	margin-bottom: 2px;
+}
+.whois-search.affix-search #continueCart .order-length {
+	position: static;
+}
+.whois-search.affix-search inet-ads-campain {
+	display: none;
+}
+.whois-results .flex-box {
+    flex-wrap: wrap;
+}
+/*--------------/End Affix Search style/------------*/
+#whoisDmnHome {
+	height: 366px;
+}
+.slogan-group {
+	text-align: center;
+	color: #fff;
+	margin-top: 40px;
+}
+.slogan-group .main-title,
+.slogan-group .sub-title {
+	font-family: 'Quicksand', sans-serif;
+}
+.slogan-group .main-title {
+	font-size: 4em;
+	text-transform: uppercase;
+	margin-bottom: 0px !important;
+	text-shadow: 1px 2px 0px rgba(0,0,0,0.15);
+	font-weight: 700;
+}
+.slogan-group .sub-title {
+	font-size: 2.2em;
+}
+#frm-domain-registration {
+	margin: 45px 0px;
+}
+.search-form .input-group-lg .input-search {
+	height: auto;
+	padding: 15px;
+	font-size: 18px;
+	border: none;
+}
+.search-form .input-group-lg .input-search:hover,
+.search-form .input-group-lg .input-search:focus{
+	border-color: #f7c641;
+}
+.whois-search .input-group-lg .input-search {
+	border: none;
+}
+.whois-search .input-group-lg .input-search:-webkit-autofill:focus {
+	background-color: #424242;
+	color: #fff;
+}
+.search-form .input-group-lg > .input-group-btn > .btn {
+	font-size: 20px;
+	text-transform: uppercase;
+	height: auto;
+	border-radius: 0px 5px 5px 0px;
+	-moz-border-radius: 0px 5px 5px 0px;
+	-webkit-border-radius: 0px 5px 5px 0px;
+	font-weight: 400;
+}
+.whois-search .search-form .input-group-btn .btn-search {
+	padding: 13px;
+	background-color: #f7c641;
+	border-color: #f7c641;
+	color: #424242;
+}
+#resultSearchDmn {
+	margin: 30px 0px 34px;
+}
+.whois-search.affix-search #resultSearchDmn {
+	margin: 10px 0px;
+}
+
+/**----------/Subpage Whois style/-----------**/
+.SaleDmn {
+	background-color: #fffeb9;
+	border-color: #e2e2e2;
+	border-style: solid;
+	border-width: 0 1px 1px;
+	margin-bottom: 15px;
+	padding: 8px 10px;
+}
+.SaleDmn .DomainName .notice-binding {
+	margin: 0px;
+	font-size: 1.8em;
+}
+.notice-binding .dmn-notice {
+	font-size: 18px;
+}
+.notice-binding .yourWantIt {
+	font-size: 16px;
+	display: inline-block;
+	padding: 6px 8px;
+	border: 1px solid #dadada;
+	background-color: #F2F2F2;
+}
+.headline-wrap .h3,
+.headline-wrap h3 {
+	color: #525252;
+}
+.group-domain-name .ion-android-happy {
+	font-size: 2.4em;
+}
+.notavailable .ion-android-sad {
+	border: 1px solid #b6b6b6;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 0px 5px;
+}
+.domainName {
+	color: #424242;
+}
+.group-domain-name > i + .domainName {
+	margin-left: 15px;
+}
+.group-domain-name .domainName {
+	font-size: 2.5em;
+}
+.flex-box > .priceAndAction {
+    white-space: nowrap;
+    justify-content: flex-end;
+}
+
+.priceAndAction {
+    position: relative;
+}
+.priceAndAction .txt-fees {
+	font-size: 11px;
+}
+.pricing > .price.group-fees > .pricestrike {
+    display: block;
+}
+.group-fees > .pricestrike {
+    font-style: italic;
+    margin-right: 8px;
+}
+.maintainingfee {
+	color: #cf6b15;
+	font-size: 18px;
+}
+.suggestion-wrap {
+	border-top: 1px solid #e2e2e2;
+	background-color: #f2f2f2;
+	padding-bottom: 20px;
+}
+#sugges-domain-campaign .box-inner {
+	padding: 5px;
+	background-color: #f2f2f2;
+	margin-top: 15px;
+}
+.group.header {
+	margin: 0px 0px 15px;
+}
+.group.header > h3 {
+	display: inline-block;
+	margin: 0 30px 0px 0px;
+}
+/*-------------/Domain Sugges list/-------------*/
+.domain-suggest-wrapper {
+    margin-bottom: 35px;
+}
+.domain-suggest-wrapper .loading-style-default {
+    left: inherit;
+    right: 50px;
+}
+.domain-suggest-wrapper .title {
+	margin: 15px 0px;
+}
+.domain-suggest-wrapper .priceAndAction {
+	min-height: 60px;
+	position: relative;
+}
+.domain-suggest-wrapper .priceAndAction .pricing.flex-box {
+    flex-wrap: nowrap;
+}
+.domain-suggest-wrapper .priceAndAction .pricing.flex-box + .select {
+    padding-right: 0px;
+    padding-top: 10px;
+}
+.domain-suggest-wrapper .list-domain-name {
+	background-color: #fff;
+	border-bottom: 2px solid #e2e2e2;
+	padding: 8px 10px;
+}
+.domain-suggest-wrapper .group-domain-name > i + .domainName {
+	margin-left: 38px;
+}
+.domain-suggest-wrapper .list-domain-name .domainName {
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #212121;
+	display: block;
+}
+.domain-suggest-wrapper .group-domain-name .ion-feel {
+	float: left;
+	font-size: 1.7em;
+	line-height: 1;
+}
+
+.pricing > .price-group {
+	display: inline-block;
+	margin-right: 15px;
+	padding-right: 15px;
+	border-right: 1px solid #e2e2e2;
+    background-color: transparent;
+}
+.pricing > .price-group + .ptt {
+	float: right;
+}
+	/*-------------/Domain Feature list combo domain name Available/-------------*/
+.available .feature-main-domain {
+	margin-top: 20px;
+	background-color: #f8f8f8;
+}
+.feature-main-domain .list-domain-name {
+	border-bottom: 1px solid #e2e2e2;
+	border-right: 1px solid #e2e2e2;
+	padding: 5px 10px;
+}
+.feature-main-domain .list-domain-name:last-child {
+	border-bottom: none;
+}
+.feature-main-domain .list-domain-name .domainName {
+	margin-left: 8px;
+}
+.feature-main-domain .list-domain-name .domainName,
+.feature-main-domain .list-domain-name .ion-android-happy {
+	font-size: 1.6em;
+}
+.feature-main-domain .list-domain-name .ion-android-happy {
+	text-shadow: 1px 1px 0 rgba(255, 255, 255, 1);
+}
+.TopDmnFeature {
+	border-top: 1px dashed #b6b6b6;
+	border-left: 3px solid rgb(45, 96, 173);
+	box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+	-webkit-box-shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.2);
+}
+.TopDmnFeature .get-sale-group-domain {
+	padding: 22px 15px;
+}
+.TopDmnFeature .SaleDmn {
+	margin-bottom: 0px;
+	border-width: 1px 0px 0px;
+	border-color: #e2e2e2;
+}
+/*-------------/Domain whois in cart basket & whois follow hosting/-------------*/
+.domain-search-in-cart .box-inner {
+	padding: 10px;
+	background-color: #f2f2f2;
+	border: 1px solid #e2e2e2;
+}
+.domain-search-in-cart .form-group {
+	position: relative;
+	margin: 0px;
+}
+.domain-search-in-cart .form-group .label-control {
+	margin: 0px;
+	width: 100%;
+}
+.domain-search-in-cart .form-group .input-group-btn.dropdown {
+	position: absolute;
+	width: auto;
+	top: 25px;
+	right: 0px;
+}
+.domain-search-in-cart .form-group .input-group-btn.dropdown > .btn.dropdown-toggle {
+	background: none;
+	border-left: 1px solid #e2e2e2;
+}
+.hosting-prd .domain-search-in-cart > .box-inner {
+	margin: 10px -16px -11px;
+	padding: 10px 15px;
+	background: none;
+	border: none;
+}
+/* loading feature availabe domain name when whois */
+.loading-feature .loading-style-default {
+	position: absolute;
+	right: 50%;
+	top: 30%;
+	padding: 20px;
+	margin-top: 30px;
+}
+.loading-feature .loading-style-default .cssload-loader {
+	width: 45px;
+	height: 45px;
+}
+.priceAndAction .loading-style-default {
+	left: 0px;
+}
+.whois-loading-select .loading-style-default {
+	margin-top: -10px;
+}
+.whois-loading-select .loading-style-default .cssload-loader {
+	width: 22px;
+	height: 22px;
+}
+/* dang ky ten mien */
+.domain-register #iNETfeature h1.page-title{
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.domain-register #iNETfeature .col-grid .thumbnail {
+	float: left;
+	width: 60px;
+}
+.domain-register #iNETfeature .col-grid figure {
+	margin-bottom: 15px;
+}
+.domain-register #iNETfeature .col-grid figure > figcaption {
+	float: left;
+	width: calc(100% - 60px);
+	padding-left: 15px;
+}
+.domain-register #iNETfeature .col-grid figure > figcaption > .fig-title {
+	margin-top: 0px;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .price-group > .price:last-child {
+        margin-bottom: 0px;
+    }
+    .whois-domain {
+        padding: 10px 15px;
+        background-color: #4b82bc;
+        top: -40px;
+    }
+    .whois-domain.affix-top {
+        top: 0px;
+    }
+    .whois-domain.fix-to-top {
+        position: fixed;
+        top: 0;
+        z-index: 1000;
+    }
+    .whois-domain > .box-wrap {
+        padding: 0px;
+        margin: 0px;
+    }
+    .whois-results .suggestion-wrap {
+        padding-bottom: 0px;
+    }
+    .domain-search-form .form-control {
+        font-weight: 400;
+        border: none;
+        font-size: 16px;
+    }
+    #continueCart {
+        margin-top: 10px;
+    }
+    #continueCart > a.link-cart-continue {
+        padding: 5px 6px;
+        color: #fff;
+        background-color: #c61818;
+        position: relative;
+        display: inline-flex;
+        text-decoration: none;
+    }
+    #continueCart > a.link-cart-continue:after {
+        content: "";
+        border-width: 19px;
+        border-style: solid;
+        border-color: transparent transparent transparent #c61818;
+        position: absolute;
+        right: -38px;
+        top: -4px;
+    }
+    #continueCart .order-length {
+        color: #f2f2f2;
+    }
+    .domain-suggest-wrapper .list-domain-name.notavailable {
+        background-color: #fbe5e5;
+        border-color: #efc2c2;
+    }
+    .domain-suggest-wrapper .list-domain-name.isavailable {
+        background-color: #f0fff0;
+    }
+    .domain-suggest-wrapper .group-domain-name {
+        font-size: 17px;
+    }
+    #dmnAvailable,
+    .domain-suggest-wrapper .list-domain-name {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .domain-suggest-wrapper .list-domain-name {
+        position: relative;
+    }
+    #dmnAvailable > *:first-child,
+    .domain-suggest-wrapper .list-domain-name > *:first-child {
+        flex: 1;
+    }
+    .domain-suggest-wrapper .price-and-action .btn-group-select.pull-right,
+    .domain-suggest-wrapper .price-and-action .domain-not-available > .btn.pull-right {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Global style */
+    .suggestion-wrap {
+        background-color: #e2e2e2;
+    }
+
+    .domain-suggest-wrapper .list-domain-name:nth-child(1),
+    .domain-suggest-wrapper .list-domain-name:first-child {
+        border-top: 1px solid #d2d2d2;
+    }
+    .domain-suggest-wrapper .list-domain-name {
+        background-color:#f2f2f2;
+        padding: 10px;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #d2d2d2;
+        flex-flow: column;
+    }
+    .domain-suggest-wrapper .list-domain-name > * {
+        flex: 1;
+    }
+    .list-domain-name .group-domain-name {
+        font-size: 1.25em;
+    }
+    .sale-campaign {
+        font-size: 1.3em;
+    }
+    .list-domain-name .whois-loading-select > .loading-style-default {
+        position: static;
+        margin: 10px 0px 0px;
+    }
+    .list-domain-name .whois-loading-select > .loading-style-default .cssload-loader {
+        margin: 10px auto;
+        width: 30px;
+        height: 30px;
+    }
+    .price-and-action .pricing {
+        position: relative;
+        flex-direction: column-reverse;
+        display: flex;
+        text-align: right;
+    }
+    .price-and-action .pricing > .price-group .ptt.price {
+        float: right;
+        margin: 0;
+    }
+    .ptt.price > .maintainingfee {
+        color: #cf6b15;
+        font-size: 1.3em;
+    }
+    .price-group > .price {
+        margin: 0px;
+    }
+    .price-and-action .btn-group-select .btn-action {
+        text-transform: none;
+    }
+    .domain-register #iNETfeature .col-grid .thumbnail {
+        margin-right: 0px;
+    }
+    /* Elements style */
+    .domainshow > .headline {
+        margin: 0px;
+    }
+    .header-result > .headline {
+        font-size: 1.25em;
+        line-height: 1.3;
+        color: #424242;
+    }
+    .header-result > .headline .notavailable-dmn {
+        font-size: 1.6em;
+    }
+    .header-result > .headline .domainName {
+        text-transform: none;
+        font-size: 1.5em;
+    }
+    .header-result .domainshow > .group-domain-name {
+        font-size: 1.8em;
+        font-weight: 600;
+    }
+
+    #dmnAvailable {
+        display: flex;
+    }
+
+    #dmnAvailable > .domainshow,
+    #dmnAvailable > .price-and-action {
+        padding: 6px;
+        flex: 1;
+    }
+    #dmnAvailable > .price-and-action > .remove {
+        display: flex;
+        align-items: center;
+    }
+
+    .filter-domain-extens .list-suffix-domain > li > .label > input[type=checkbox] {
+        display: none;
+    }
+    /* Filter style */
+    #filterGroup .filter-dmn-ext-wrap > .md-button {
+        text-transform: none;
+        padding: 0px 12px;
+    }
+    #filterGroup .filter-dmn-ext-wrap > .md-button.active,
+    #filterGroup.inet-affix .filter-dmn-ext-wrap > .md-button.active {
+        background-color: #1976D2;
+        color: #fff;
+        border-bottom-left-radius: 0px;
+        -moz-border-bottom-left-radius: 0px;
+        -webkit-border-bottom-left-radius: 0px;
+        border-bottom-right-radius: 0px;
+        -moz-border-bottom-right-radius: 0px;
+        -webkit-border-bottom-right-radius: 0px;
+    }
+
+    #filterGroup.inet-affix .filter-dmn-ext-wrap > .md-button.active {
+        border-bottom-left-radius: 16px;
+        -moz-border-bottom-left-radius: 16px;
+        -webkit-border-bottom-left-radius: 16px;
+        z-index: 9;
+        margin-right: 0px;
+    }
+    #filterGroup .filter-dmn-ext-wrap > .filter-domain-extens {
+        padding: 1px;
+    }
+    #filterGroup .filter-dmn-ext-wrap > .filter-domain-extens > .layout-padding {
+        padding: 0px;
+        overflow-y: auto;
+        display: inline-block;
+        width: 100%;
+    }
+    #filterGroup .filter-dmn-ext-wrap > .filter-domain-extens.active {
+        margin-top: -6px;
+    }
+    #filterGroup .filter-dmn-ext-wrap > .filter-domain-extens.active {
+        background-color: #1976D2;
+    }
+    #filterGroup.inet-affix .filter-dmn-ext-wrap > .md-button {
+        min-width: inherit;
+        min-height: inherit;
+        line-height: 1;
+        padding: 8px 12px;
+        color: #f2f2f2;
+        margin: 0 8px 0px 0px;
+        border-top-left-radius: 0px;
+        -webkit-border-top-left-radius: 0px;
+        border-top-right-radius: 0px;
+        -webkit-border-top-right-radius: 0px;
+        position: absolute;
+        right: -3px;
+    }
+    #filterGroup.inet-affix .filter-dmn-ext-wrap > .md-button > .filter-label {
+        display: none;
+    }
+    #filterGroup ul.list-suffix-domain {
+        margin: 0px;
+        padding: 0px;
+    }
+    #filterGroup ul.list-suffix-domain > li > .label-default {
+        display: block;
+        margin: 0px 5px 5px;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 8px;
+    }
+    #filterGroup ul.list-suffix-domain > li > .label-default.active {
+        background-color: #1976d2;
+    }
+    #dmnAvailable {
+        flex-direction: column;
+    }
+    #dmnAvailable .notavailable > i {
+        font-size: 25px;
+    }
+    #dmnAvailable .notavailable .domainName {
+        font-size: 27px;
+    }
+    .domainshow {
+        width: 100%;
+        text-align: center;
+        padding: 8px 10px;
+        background-color: #eaeaea;
+        margin-bottom: 10px;
+    }
+    .price-and-action {
+        display: flex;
+        flex-flow: row-reverse;
+    }
+    .header-result .price-and-action .pricing {
+        margin-right: 10px;
+    }
+    .price-and-action .pricing {
+        margin: 0px;
+        width: 100%;
+        flex-flow: row;
+    }
+    .price-and-action .pricing > .price-group {
+        flex: 1;
+        padding: 0px 15px 0px 0px;
+        margin: 0px 15px 0px 0px;
+    }
+    .price-and-action .pricing > .price-group + .group-fees {
+        padding: 0px;
+        margin: 0px;
+        text-align: right;
+    }
+
+    .price-and-action .pricing .price > .group-fees {
+        flex-flow: row;
+    }
+    .price-and-action .pricing .price > .group-fees .pricestrike {
+        margin-right: 10px;
+    }
+    .domain-suggest-wrapper .list-domain-name > .price-and-action {
+
+    }
+    .domain-suggest-wrapper .list-domain-name .domainName {
+        width: 100%;
+    }
+    .whois-results .domainName,
+    .domain-suggest-wrapper .list-domain-name .domainName {
+        font-size: 18px;
+    }
+    .domain-not-available > .btn {
+        margin-left: 10px;
+    }
+    #dmnAvailable, .domain-suggest-wrapper .list-domain-name {
+
+    }
+    /*#domain-extens-sugges style*/
+    #domain-extens-sugges .domain-suggest-wrapper .list-domain-name > .price-and-action {
+        margin: 0px;
+        padding: 0px;
+        flex-flow: row-reverse;
+        align-items: center;
+        min-height: inherit;
+    }
+    #domain-extens-sugges .domain-suggest-wrapper .list-domain-name > .price-and-action > .pricing {
+        margin: 0px;
+        padding: 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

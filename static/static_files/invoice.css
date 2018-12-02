@@ -1,0 +1,20 @@
+@media screen and (max-width: 768px) {
+    .layout-padding > .mobile-list {
+        padding: 0;
+    }
+    .mobile-list .list-item {
+        padding: 0;
+        background-color: #fff;
+        box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+        -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+        -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+    }
+    .mobile-list .list-item > li {
+        padding: 10px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-list .list-item > li > *:first-child {
+        min-width: 108px;
+    }
+}

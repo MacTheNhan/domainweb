@@ -1,0 +1,117 @@
+.subpage a:link,
+.subpage span.MsoHyperlink {
+	text-decoration: none;
+}
+.note-messages {
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.inet-admin .page-title {
+	font-size: 22px;
+}
+/*-------------/body.mya style/------------*/
+.nav-tabs-custom {
+	margin-top: 30px;
+}
+.nav-tabs-custom .nav-sub-tabs-custom .sub-tab-content {
+	background-color: #fff;
+	position: relative;
+	padding: 0px;
+	z-index: 2;
+}
+.sub-tab-content .panel-default {
+	margin-bottom: 0px;
+}
+.nav-sub-tabs-custom .nav-tabs {
+	border: none;
+}
+.nav-sub-tabs-custom .nav-tabs > li > a {
+	color: #fff;
+	background-color: #266eba;
+}
+.nav-tabs-custom .nav-sub-tabs-custom .nav-tabs > li > a:hover,
+.nav-tabs-custom .nav-sub-tabs-custom .nav-tabs > li > a:focus,
+.nav-tabs-custom .nav-sub-tabs-custom .nav-tabs > li.active > a,
+.nav-tabs-custom .nav-sub-tabs-custom .nav-tabs > li.active > a:hover,
+.nav-tabs-custom .nav-sub-tabs-custom .nav-tabs > li.active > a:focus {
+	background-color: #fff;
+	color: #525252;
+	border-width: 0px;
+}
+/*-------------/body.myaSubPage style/------------*/
+.myaSubPage #AccInfo {
+    margin-bottom: 0px;
+}
+.myaSubPage .panel-heading .page-title {
+    margin-top: 0px;
+    font-size: 1.8em;
+}
+.myaSubPage .page-title {
+	margin: 10px 0px 15px;
+}
+/*-------------/ Element for panel /------------*/
+.panel-heading h1,
+.panel-heading h2,
+.panel-heading h3,
+.panel-heading h4,
+.panel-heading h5,
+.panel-heading h6 {
+	margin: 0px;
+}
+/*-------------/ Service packet selected desgin /------------*/
+.dropdown .package-dropdown-wrap {
+	width: 100%;
+}
+/*-------------/ Modal loading style /------------*/
+.loading-style-default.modal-loading > .cssload-loader {
+	display: inline-block;
+	height: 60px;
+	width: 60px;
+}
+/*-------------/ Modal loading style /------------*/
+.form-group .dropdown > .dropdown-toggle {
+	width: 100%;
+	text-align: left;
+}
+.sub-tab-content .tab-pane .panel-default {
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-width: 1px 0px 0px;
+}
+/*Messages style*/
+.sl-type-update {
+	position: relative;
+	font-weight: 400;
+}
+.note-messages {
+	position: absolute;
+	top: -38px;
+	white-space: nowrap;
+	z-index: 2;
+	padding: 8px;
+	background-color: rgba(0,0,0,.8);
+	color: #e2e2e2;
+}
+.note-messages:before {
+	content: "";
+	border-width: 6px;
+	border-style: solid;
+	border-color: #333333 transparent transparent;
+	position: absolute;
+	bottom: -12px;
+	left: 6px;
+}
+.note-messages > button.close {
+	position: absolute;
+	right: -12px;
+	top: -18px;
+}
+
+@media screen and (max-width: 768px) {
+    .inet-admin .page-title {
+        padding: 15px 10px;
+        margin: 0px;
+    }
+}

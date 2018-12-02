@@ -1,0 +1,253 @@
+/*---------------/Background Color style global/-------------*/
+.bg-grey-92,
+.bg-black-21,
+.bg-black-42,
+.bg-black-52,
+.email-share,
+.twitter-share,
+.facebook-share,
+.googleplus-share,
+.email-share:hover,
+.twitter-share:hover,
+.facebook-share:hover,
+.googleplus-share:hover,
+.bg-blue-1976d2,
+.bg-blue-0074bb,
+.bg-blue-70a1d3,
+.bg-blue-4789c8,
+.bg-red-2215959,
+.btn.bg-grey-72,
+.bg-blue-72148223,
+.bg-green-3018692,
+.bg-orange-d35400,
+.bg-orange-da982f,
+.bg-orange-2049414,
+.btn.bg-red-2215959,
+.btn.bg-blue-72148223,
+.btn.bg-green-3018692,
+.btn.bg-green-3018692:focus:active,
+.btn.bg-orange-2049414,
+.btn.bg-grey-72:hover,
+.btn.bg-grey-72:focus,
+.btn.bg-blue-1976d2:hover,
+.btn.bg-blue-1976d2:focus,
+.btn.bg-orange-d35400:hover,
+.btn.bg-orange-d35400:focus,
+.btn.bg-blue-4789c8:hover,
+.btn.bg-blue-4789c8:focus {
+    color: #fff;
+}
+
+.bg-grey-d9d9d6 {
+	color: #2D2926;
+}
+
+.bg-red-2215959 {
+    background-color: rgba(221,59,59,1);
+}
+.bg-green-3018692 {
+    background-color: rgba(30,186,92,1);
+}
+.bg-blue-70a1d3 {
+	background-color: #70a1d3;
+}
+.bg-blue-4789c8 {
+	background-color: #4b82bc;
+}
+.bg-blue-339fe2 {
+	background-color: #339fe2;
+}
+.bg-blue-72148223 {
+    background-color: rgba(72,148,223,1);
+}
+.bg-blue-0074bb {
+	background-color: #0074bb;
+}
+.bg-blue-1976d2 {
+	background-color: #1976d2;
+}
+.bg-blue-115296 {
+	background-color: #115296;
+	color: #f2f2f2;
+}
+.bg-blue-2e69a6 {
+	background-color: #2e69a6;
+	color: #F2F2F2;
+}
+.bg-orange-d35400 {
+	background-color: #d35400;
+}
+.bg-orange-fff8d0 {
+	background-color: #fff8d0;
+}
+.bg-orange-2049414 {
+	background-color: rgba(204,94,14,1);
+}
+.bg-orange-da982f {
+	background-color: #da982f;
+}
+.bg-yellow-fffeb9 {
+	background-color: #FFFEB9;
+}
+.bg-yellow-fbfbdb {
+	background-color: #fbfbdb;
+}
+.bg-yellow-f5d76e {
+	background-color: #f5d76e;
+}
+.bg-yellow-f7dc93 {
+	background-color: #f7dc93;
+}
+.bg-yellow-f7c641 {
+	background-color: #f7c641;
+}
+.bg-yellow-f9e17d {
+	background-color: #f9e17d;
+	color: #2D2926;
+}
+.bg-grey-f8 {
+	background-color: #f8f8f8;
+}
+.bg-grey-f2 {
+	background-color: #f2f2f2;
+}
+.bg-grey-e2 {
+	background-color: #e2e2e2;
+}
+.bg-grey-cc {
+	background-color: #ccc;
+}
+.bg-grey-b6 {
+	background-color: #b6b6b6;
+}
+.bg-grey-92 {
+	background-color: #929292;
+}
+.bg-grey-72 {
+	background-color: #727272;
+}
+.bg-grey-d9d9d6 {
+	background-color: #d9d9d6;
+}
+.bg-black-21 {
+	background-color: #212121;
+}
+.bg-black-42 {
+	background-color: #424242;
+}
+.bg-black-52 {
+	background-color: #525252;
+}
+
+.bg-white {
+	background-color: #fff;
+	color: #2D2926;
+}
+
+.btn.bg-blue-72148223:hover,
+.btn.bg-blue-72148223:focus {
+    background-color: rgba(72,148,223,0.85);
+    color: #fff;
+}
+.bg-red-d63d36 {
+	background-color: rgba(214,61,54,1);
+	color: #fff;
+}
+.bg-red-d63d36:hover,
+.bg-red-d63d36:focus {
+	background-color: rgba(214,61,54,0.85);
+	color: #fff;
+}
+.btn.bg-grey-e2:hover,
+.btn.bg-blue-0074bb:hover,
+.btn.bg-blue-0074bb:focus {
+    opacity: .85;
+    filter: alpha(opacity=85);
+}
+
+.btn.bg-red-2215959:hover,
+.btn.bg-red-2215959:focus {
+	background-color: rgba(221,59,59,0.85);
+	color: #fff;
+}
+.btn.bg-green-3018692:hover,
+.btn.bg-green-3018692:focus {
+    background-color: rgba(30,186,92,0.85);
+}
+
+.btn.bg-orange-2049414:hover,
+.btn.bg-orange-2049414:focus {
+	background-color: rgba(204,94,14,0.85);
+}
+.btn.bg-grey-72:hover,
+.btn.bg-grey-72:focus,
+.btn.bg-orange-d35400:hover,
+.btn.bg-orange-d35400:focus {
+	opacity: 0.85;
+	filter: alpha(opacity = 85);
+}
+.btn.bg-blue-4789c8:hover,
+.btn.bg-blue-4789c8:focus {
+	background-color: rgba(71,137,200,.8);
+}
+/*Background social color*/
+.facebook-share,
+.btn.facebook-share:hover {
+	background-color: #3E599E;
+}
+.twitter-share {
+	background-color: #29AAE3;
+}
+.btn.facebook-share,
+.btn.googleplus-share {
+    background-color: #e2e2e2;
+    color: #424242;
+    transition: background-color 0.15s ease-out 0s;
+    -o-transition: background-color 0.15s ease-out 0s;
+    -moz-transition: background-color 0.15s ease-out 0s;
+    -webkit-transition: background-color 0.15s ease-out 0s;
+}
+.googleplus-share,
+.btn.googleplus-share:hover {
+	background-color: #D64534;
+}
+
+.email-share {
+	background-color: #F89A1E;
+}
+.facebook-share:hover,
+.twitter-share:hover,
+.googleplus-share:hover,
+.email-share:hover,
+.facebook-share:focus,
+.twitter-share:focus,
+.googleplus-share:focus,
+.email-share:focus {
+	color: #fff;
+	opacity: 0.85;
+}
+
+.btn[disabled='disabled']:hover,
+.btn[disabled='disabled']:focus {
+	opacity: 0.65;
+	filter: alpha(opacity=65);
+}
+/*-------------- no focus active button --------------*/
+.btn:focus,
+.btn:active,
+.btn:focus:active {
+    outline: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

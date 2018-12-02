@@ -1,0 +1,127 @@
+/*---------------- Ticket global --------------*/
+#ticket-manager-list .form-group > label > .label-control {
+	width: auto;
+}
+ul.timeline li timeline-panel {
+	min-height: 95px;
+}
+.timeline li timeline-panel {
+	overflow: auto;
+}
+timeline.default timeline-event:nth-child(2n+2) timeline-panel {
+	float: right;
+}
+/*---------------- Ticket details --------------*/
+.analytics-ticket {
+	margin-bottom: 20px;
+}
+
+.analytics-ticket .analytic-block-ticket .anlt-block-link-details {
+	display: block;
+	text-align: center;
+	border: 1px dashed #b6b6b6;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.12);
+	-moz-box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.12);
+	-webkit-box-shadow: 2px 2px 1px 0 rgba(0, 0, 0, 0.12);
+	padding: 8px;
+}
+.ticket-content-body .text-muted {
+	color: #727272;
+}
+.ticket-content-body .btn-action-group {
+	margin-bottom: 20px;
+}
+.timeline-panel .info-admin {
+	padding: 0px;
+	list-style: none;
+}
+.timeline-panel .info-admin > li {
+	margin: 0px 0px 4px;
+}
+.timeline-panel .info-admin > li:last-child {
+	margin-bottom: 0px;
+}
+.timeline-panel timeline-footer {
+	position: absolute;
+	right: calc(100% + 92px);
+	right: -moz-calc(100% + 92px);
+	right: -webkit-calc(100% + 92px);
+	width: 100%;
+	top: 0px;
+}
+.timeline li .timeline-footer {
+	margin: 0px;
+	padding: 10px;
+	border: 1px dashed #b6b6b6;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.timeline .timeline-footer .info-admin li.phone-number > a {
+	background: none;
+	padding: 0px;
+	font-weight: 600;
+	color: #1976D2;
+}
+.timeline-heading .header-content {
+	background-color: #f2f2f2;
+	margin: -12px -12px 10px;
+	padding: 12px 8px 13px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.timeline-heading .post-date-time {
+	padding-left: 10px;
+	border-left: 1px solid #d2d2d2;
+	text-align: right;
+}
+timeline-body .img-ticket-attach-content img {
+	max-height: 125px;
+}
+/*------------/Left and right align style/------------*/
+.left-align .timeline:before {
+	left: auto;
+	right: 23px;
+}
+.left-align .timeline li timeline-badge {
+	left: auto;
+	right: 0;
+}
+.left-align ul.timeline li timeline-panel,
+.right-align ul.timeline li timeline-panel {
+	width: calc(100% - 65px);
+}
+.right-align .timeline:before {
+	left: 26px;
+}
+.right-align .timeline li timeline-badge {
+	left: 0;
+	margin: 0px;
+}
+.right-align .timeline li timeline-panel {
+	float: right;
+}
+.right-align .timeline li timeline-panel:before {
+	right: auto;
+	left: -15px;
+	border-width: 15px 15px 15px 0px;
+}
+.right-align .timeline li timeline-panel:after {
+	right: auto;
+	left: -14px;
+	border-width: 14px 14px 14px 0px;
+}
+/*------------/End Left and right align style/------------*/
+
+
+
+
+
+
+
+
+
+
+

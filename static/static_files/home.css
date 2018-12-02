@@ -1,0 +1,384 @@
+/* Global style */
+.help-info .help-detail-info {
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+.help-info .help-avatar > img,
+.owl-pagination .owl-page {
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+}
+#serviceBasic .figure-thumbnail > .thumbnail {
+	padding: 0px;
+	border: none;
+}
+.help-info {
+	background-color: #e2e2e2;
+	padding: 15px;
+	position: relative;
+}
+.help-info .help-avatar {
+	position: absolute;
+	left: 10px;
+	right: 10px;
+	top: 15px;
+}
+.help-info .help-avatar > img {
+	width: 125px;
+	border: 1px solid #d6d6d6;
+}
+.help-info .help-detail-info {
+	background-color: #fff;
+	border: 1px solid #d6d6d6;
+	margin-top: 88px;
+}
+.help-info .list-item-support {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
+.help-info .list-item-support li:not(:last-child) {
+	padding-bottom: 8px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.help-info .list-item-support li > a {
+	display: block;
+	font-size: 1.2em;
+}
+.homepage .bg-sv .box-title,
+.homepage h2, .homepage .h2, #customersReview h3 {
+    font-family: Quicksand,sans-serif;
+}
+
+.homepage .top-ads .owl-wrapper-outer {
+    margin: 0px;
+}
+.homepage .region-wrap {
+    padding: 30px 0px;
+}
+	/* Whois style */
+.whois-dmn-wrap .form-wrap {
+	text-align: center;
+	padding: 0px 10px;
+}
+.whois-dmn-wrap .slogan-group {
+	color: #fff;
+}
+.whois-dmn-wrap .slogan-group > * {
+	font-family: Quicksand,sans-serif;
+}
+.whois-dmn-wrap .slogan-group > .main-title {
+	font-weight: 600;
+}
+.whois-dmn-wrap .search-form {
+	margin: 25px 0 10px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.whois-dmn-wrap input.input-search::-webkit-input-placeholder {
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+.whois-dmn-wrap input.input-search:-moz-placeholder {
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+.whois-dmn-wrap input.input-search::-moz-placeholder {
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+.whois-dmn-wrap input.input-search::-ms-input-placeholder {
+   text-overflow: ellipsis;
+   overflow: hidden;
+}
+
+.homepage .whois-dmn-wrap .search-form .btn-search.btn-flat {
+	border: none;
+	font-size: 25px;
+	padding-right: 15px;
+	padding-left: 15px;
+}
+.homepage .search-form .input-group-lg > .input-group-btn > .btn {
+    height: 54px;
+}
+/* Top domain */
+.top-domains .list-item {
+	list-style: none;
+	margin: 0 10px;
+	color: #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+.top-domains .list-item > p {
+	color: #f2f2f2;
+	margin: 0px;
+}
+.top-domains .owl-item img {
+	margin-bottom: 5px;
+}
+.top-domains .price-old {
+	color: #212121;
+	font-size: 12px;
+}
+
+.top-domains .list-item > li:nth-child(3n+4) {
+	clear: left;
+}
+.top-domains .list-item > li > p {
+	font-weight: 600;
+}
+.top-domains .list-item > li span {
+	text-decoration: line-through;
+	display: block;
+	font-weight: 400;
+}
+/* Our Service Basic Style */
+.service-wrap h2.h4 {
+	padding: 8px 15px;
+	margin: 0px -15px 15px;
+	color: #fff;
+}
+
+#serviceValueAdded figure:last-child {
+	border-bottom: none;
+	padding-bottom: 0px;
+}
+.service-wrap md-toolbar {
+	background-color: #727272;
+}
+md-list-item.md-3-line .md-list-item-text > .sub-title {
+	white-space: normal;
+}
+.sub-title > .service-name {
+	margin: 0px;
+	text-align: left;
+	padding-left: 0px;
+}
+.sub-title > .service-name + .price-sale {
+	padding: 0;
+	line-height: 1;
+	min-height: inherit;
+}
+
+.front #serviceBasic {
+	background-color: #f2f2f2;
+}
+
+.front #serviceBasic .sv-list {
+	padding: 8px 0px;
+	background-color: #fff;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 1px 0px rgba(0,0,0,.15);
+	-moz-box-shadow: 0px 0px 1px 0px rgba(0,0,0,.15);
+	-webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,.15);
+}
+.call-to-action sup {
+	top: -5px;
+}
+/*Khách hàng nói về iNET*/
+/*-----------------/Home page style/----------------*/
+#customersReview a {
+    color: #f2f2f2;
+}
+#customersReview a:hover,
+#customersReview a:focus {
+    color: #fff;
+}
+#customersReview figure {
+    padding: 0px 10px;
+}
+#customersReview figure > * {
+    float: left;
+}
+#customersReview figure > .thumbnail {
+    width: 86px;
+    padding: 0px;
+    overflow: hidden;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+}
+#customersReview figcaption > blockquote {
+    font-family: 'Roboto', sans-serif;
+    border-left: none;
+    padding: 0px 5px;
+    font-size: 16px;
+}
+#customersReview figcaption > blockquote footer {
+    color: #F2F2F2;
+}
+#customersReview .owl-controls .owl-buttons > * {
+    top: 38%;
+}
+#customersReview h3 {
+	text-align: center;
+	font-weight: 700;
+    margin: 0px 0px 30px;
+}
+#customersReview figure > .thumbnail {
+	width: 62px;
+    height: 62px;
+    border: none;
+    flex: inherit;
+}
+#customersReview figure > figcaption {
+	width: calc(100% - 62px);
+	padding-left: 10px;
+}
+#customersReview figcaption > blockquote {
+	white-space: normal;
+	border-left: none;
+	padding: 0px 5px;
+	font-size: 15px;
+}
+#customersReview figcaption > blockquote footer {
+	color: #f2f2f2;
+	font-size: 90%;
+}
+
+@media screen and (min-width: 600px) {
+    #serviceValueAdded,
+    .front #serviceBasic > .box-inner {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .front #serviceBasic .sv-list {
+        flex-grow: 1;
+        flex-basis: 50%;
+    }
+    #serviceValueAdded .bg-sv {
+        flex: 1;
+        flex-flow: column;
+        display: flex;
+        align-items: center;
+    }
+    #serviceBasic .figure-thumbnail > .thumbnail {
+        background-color: transparent;
+    }
+}
+
+@media screen and (max-width: 768px){
+    #customersReview h3 {
+        margin: 10px 0px 15px;
+        font-size: 22px;
+    }
+    .call-to-action .md-button {
+        margin: 0px;
+    }
+    .whois-dmn-wrap .slogan-group > .main-title {
+        font-size: 30px;
+    }
+    .slogan-group .sub-title {
+        font-size: 18px;
+    }
+    .top-domains .list-item .price-sale {
+        color: #e2e2e2;
+        display: inline;
+    }
+    #banner.whois-dmn-wrap .search-form {
+        background-color: rgba(255,255,255,.25);
+        padding: 6px;
+    }
+    #banner.whois-dmn-wrap .search-form input.form-control {
+        height: 47px;
+    }
+}
+
+/*-------------- Home v.m7.y2018 ----------------*/
+.service-basic-wrap {
+    padding: 50px 0px;
+}
+.service-basic-wrap#addValueService .bg-svb-box {
+    display: block;
+    text-align: center;
+}
+.service-basic-wrap#addValueService .bg-svb-box > .thumbnail {
+    margin: 0 auto;
+}
+.website-register-wrap {
+    background: #e06d18 url('/public/img/banners/zozo-slide.png') no-repeat center bottom / cover;
+    color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.website-register-wrap:before {
+    content: "";
+    background-color: #e06d18;
+    opacity: .87;
+    filter: alpha(opacity=87);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+}
+
+.hosting-register-wrap {
+    background-color: #f2f2f2;
+}
+.email-register-wrap {
+    background-color: #4b82bc;
+    color: #fff;
+}
+.cloud-vps-register-wrap {
+    background-color: #f2f2f2;
+}
+
+.customer-review-2018 {
+    background-color: #e3f1ff;
+}
+#customersReview.customer-review-2018 figure {
+    position: relative;
+    padding: 0px;
+}
+.customer-review-2018 figure > .thumbnail {
+    position: absolute;
+    left: 10px;
+}
+
+.customer-review-2018 figcaption > .quote-name {
+    margin: 10px 0px 20px 82px;
+    min-height: 40px;
+}
+#customersReview.customer-review-2018 figcaption > blockquote {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: relative;
+    box-shadow: -2px -2px 15px 0px rgba(0,0,0,.1);
+    -moz-box-shadow: -2px -2px 15px 0px rgba(0,0,0,.1);
+    -webkit-box-shadow: -2px -2px 15px 0px rgba(0,0,0,.1);
+}
+.customer-review-2018 figcaption > blockquote:before {
+    content: "";
+    border-width: 8px 5px 7px 10px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    position: absolute;
+    top: -14px;
+    left: 30px;
+}
+
+#customersReview.customer-review-2018 figure > figcaption {
+    width: auto;
+    padding: 0px;
+}
+
+@media screen and (max-width: 320px){
+    #customersReview figure {
+        flex-direction: column;
+        align-items: center;
+    }
+    #customersReview figure > .thumbnail + figcaption {
+        width: 100%;
+        margin: 15px 0px;
+        padding: 0px;
+    }
+}

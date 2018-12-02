@@ -1,0 +1,5 @@
+.owl-ui-basic .owl-pagination .owl-page.active {
+    background-color: #4b82bc;
+    opacity: 1;
+    filter: alpha(opacity=100);
+}

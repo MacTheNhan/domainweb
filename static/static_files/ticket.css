@@ -1,0 +1,48 @@
+@import url("../../libs/angular-timeline.css");
+/* /ticket/manager-list */
+.ticket-manager-list .box-body .total-ticket {
+	padding: 10px;
+	margin: 0px -10px;
+}
+.timeline timeline-event timeline-panel {
+	min-height: 164px;
+}
+.panel-inner .panel-title {
+	margin-bottom: 10px;
+	font-weight: 600;
+}
+
+md-input-container.md-icon-float > md-icon {
+	left: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+	ul.timeline:before {
+		left: 25px;
+	}
+	ul.timeline li timeline-badge {
+		left: 0px;
+	}
+	ul.timeline li timeline-panel {
+		width: calc(100% - 68px);
+		width: -webkit-calc(100% - 68px);
+	}
+	ul.timeline li timeline-panel .timeline-heading {
+		position: absolute;
+		left: -81px;
+		top: 100px;
+		width: 76px;
+		display: block;
+		background-color: #fff;
+		border: 1px solid #e2e2e2;
+		padding: 6px;
+		word-wrap: break-word;
+	}
+	ul.timeline li timeline-panel .timeline-heading .header > .title {
+		font-size: 12px;
+		margin: 0px;
+	}
+	.msg-content {
+		overflow: auto;
+	}
+}

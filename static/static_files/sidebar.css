@@ -1,0 +1,67 @@
+.aside a.link {
+    color: #a3d1ff;
+}
+.aside md-toolbar {
+    background-color: #e2e2e2;
+    min-height: 40px;
+}
+.aside .md-button > .ion-android-close {
+    font-size: 22px;
+    line-height: 1;
+}
+.aside md-toolbar > .md-toolbar-tools {
+    padding: 12px 15px;
+    height: inherit;
+}
+md-sidenav.aside,
+md-backdrop.md-sidenav-backdrop {
+    position: fixed;
+    z-index: 9999;
+}
+md-sidenav.aside md-content {
+    background: none;
+    padding: 0px;
+    position: static;
+}
+md-sidenav button[aria-label="closeSidebarMenu"]{
+    position: absolute;
+    top: 0;
+    z-index: 999;
+    min-width: initial;
+}
+.md-sidenav-left button[aria-label="closeSidebarMenu"]{
+    right: 0px;
+    margin-top: 5px;
+}
+.md-sidenav-right button[aria-label="closeSidebarMenu"]{
+    left: 0px;
+    line-height: 1;
+    margin: 0;
+}
+.md-sidenav-right button[aria-label="closeSidebarMenu"] .ion-android-close {
+    color: #fff;
+}
+.aside .login-box {
+    margin-top: 35px;
+}
+.login-box > .md-button {
+    width: 100%;
+    margin: 0;
+}
+@media screen and (min-width: 769px) {
+    md-sidenav md-content {
+        background: none;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .aside md-toolbar > md-card {
+        margin: 0px;
+        background: none;
+        box-shadow: none;
+    }
+    .aside md-toolbar > md-card md-card-header {
+        padding: 0px;
+        align-items: center;
+    }
+}

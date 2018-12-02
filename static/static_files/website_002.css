@@ -1,0 +1,22 @@
+.themes-item {
+	margin-bottom: 25px;
+}
+.themes-item:last-child {
+	margin-bottom: 0px;
+}
+.themes-item figure .thumbnail {
+	border-radius: 4px 4px 0px 0px;
+	-moz-border-radius: 4px 4px 0px 0px;
+	-webkit-border-radius: 4px 4px 0px 0px;
+}
+.themes-item figure > figcaption {
+	padding: 10px 0px;
+	background-color: #e2e2e2;
+	border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	-webkit-border-radius: 0px 0px 4px 4px;
+}
+/* change-themes */
+.change-theme md-tabs md-tabs-content-wrapper > md-tab-content {
+	background-color: transparent;
+}

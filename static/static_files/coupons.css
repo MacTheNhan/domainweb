@@ -1,0 +1,41 @@
+#couponCode {
+    position: relative;
+}
+#couponCode .action-control {
+    margin-bottom: 20px;
+}
+#couponCode .iNET-form {
+    padding: 10px;
+    margin: 0px 0px 15px;
+    border: 1px solid #e2e2e2;
+}
+#couponCode .iNET-form label > .form-control {
+    display: inherit;
+    width: auto;
+    margin-right: 45px;
+}
+#couponCode .btn-frm-action > .btn {
+    margin-right: 10px;
+}
+#couponCode .btn-frm-action > .btn:last-child {
+    margin-right: 0px;
+}
+#couponCode .coupon-code-creat {
+    max-height: 100px;
+    overflow: hidden;
+    opacity: 1;
+}
+#couponCode .coupon-code-creat.c-hidden {
+    max-height: 0px;
+    opacity: 0;
+}
+
+@media screen and (max-width: 767px) {
+    #couponCode {
+        padding: 10px;
+    }
+    #couponCode .coupon-code-creat {
+        max-height: inherit;
+        overflow: inherit;
+    }
+}

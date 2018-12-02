@@ -1,0 +1,62 @@
+.tab-pane h1,
+.tab-pane h2,
+.tab-pane h3 {
+    color: #656565;
+}
+.server-info .reset-list-style li {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.server-info li:not(:last-child) {
+    border-bottom: 1px dashed #e2e2e2;
+}
+.server-process-info {
+    padding: 10px 15px;
+    background-color: #e2e2e2;
+}
+
+.server-process-info li > p {
+    margin: 0px;
+}
+
+.create-server {
+    margin-bottom: 30px;
+}
+
+.disk-selected rzslider .rz-pointer.rz-active:focus {
+    outline: none;
+}
+.disk-selected rzslider .rz-bar-wrapper {
+    padding-top: 11px;
+}
+.disk-selected rzslider .rz-bar {
+    height: 15px;
+}
+
+.create-server + .btn-group-action {
+    padding-top: 10px;
+    border-top: 1px solid #e2e2e2;
+}
+
+@media screen and (min-width: 768px) {
+    .nav-tabs.nav-justified > li > a {
+        text-transform: uppercase;
+        color: #727272;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .body-tabs-content {
+        padding: 10px;
+    }
+    md-tab-content.md-no-scroll {
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header-box .showing,
+    .body-tabs-content .header-box {
+        margin-bottom: 15px;
+    }
+}

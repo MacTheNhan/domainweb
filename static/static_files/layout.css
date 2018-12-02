@@ -1,0 +1,194 @@
+/*------------/Start Grid global/------------*/
+.inet-grid {
+	padding: 0px;
+	margin: 0px -15px;
+}
+.inet-grid:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+.inet-grid .col-grid {
+	padding: 0px 15px;
+}
+.col-grid {
+	float: left;
+}
+.col-grid > .col-inner {
+	padding: 0px 15px;
+}
+.grid-auto-2 .col-1 {
+	margin-right: 30px;
+}
+ul.grid-2 > li:nth-child(2n+3),
+.grid-2 > .col-grid:nth-child(2n+3),
+.grid-2 > .col-grid:nth-child(2n+3),
+.grid-3 > .col-grid:nth-child(3n+4),
+.grid-4 > .col-grid:nth-child(4n+5),
+.grid-5 > .col-grid:nth-child(5n+6) {
+	clear: both;
+}
+/*------------/End Grid global/------------*/
+.ct-col {
+	float: left;
+	padding: 10px;
+    margin: 0 -10px;
+}
+.ct-col-5 {
+	width: 20%;
+}
+
+/*------------/Sidebar style/------------*/
+.affix-sidebar {
+	position: fixed;
+}
+.affix-bottom {
+	position: absolute;
+}
+.sidebar .filter-domain-extens.affix {
+	top: 0px;
+}
+.sidebar .categories .sbCatTitle {
+	font-size: 20px;
+	border-bottom: 1px solid #b6b6b6;
+	padding-bottom: 8px;
+	box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.85);
+	-moz-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.85);
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.85);
+}
+.sidebar .list-suffix-domain .ng-scope {
+	float: left;
+	margin: 0px 8px 8px 0px;
+}
+.sidebar li.ng-scope > label {
+	margin: 0px;
+	padding: 4px 8px;
+	cursor: pointer;
+	font-size: 13px;
+	display: block;
+}
+.sidebar li.ng-scope > label:hover,
+.sidebar li.ng-scope > label:focus,
+.sidebar li.ng-scope > label.active {
+	background-color: #1976D2;
+}
+.sidebar li.ng-scope > label > input[type="checkbox"]{
+	display: none;
+}
+/*---- tu dong can bang chieu cao cac box -----*/
+.flex-wrap-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px -10px;
+}
+.flex-wrap-grid > .grid-item {
+    display: grid;
+}
+/*Toi da 3 box tren mot hang*/
+.flex-wrap-grid > .grid-item {
+    flex: auto;
+    padding: 0px 10px;
+    margin-bottom: 14px;
+}
+/*------------/list layout 2 cot/------------*/
+ul.grid-2 > li {
+	float: left;
+	width: 50%;
+}
+.grid-2 > .col-grid {
+	width: 50%;
+}
+/*------------/End list layout 2 cot/------------*/
+/*---------------- Layout full 2 col ---------------*/
+.full-layout > .sidebar-left {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #fff;
+}
+.full-layout > .content-box,
+.box-layout > * > .content-box {
+    padding: 2px 20px;
+}
+.box-layout > * > .sidebar-left {
+    float: left;
+}
+
+.flex-wrap-grid > .grid-item.grid-3 {
+    flex-basis: 33%;
+}
+
+@media screen and (min-width: 1367px) {
+    .flex-wrap-grid > .grid-item {
+        flex-basis: 25%;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1366px) {
+
+}
+
+@media screen and (min-width: 480px) {
+    .flex-wrap-grid > .grid-item.grid-2 {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (min-width: 800px) {
+	/*------------/list layout 3 cot/------------*/
+	.grid-3 > .col-grid {
+		width: 33.33%;
+	}
+	/*------------/End list layout 3 cot/------------*/
+	/*------------/list layout 4 cot/------------*/
+	.grid-4 > .col-grid {
+		width: 25%;
+		padding: 0px 10px;
+	}
+	/*------------/End list layout 4 cot/------------*/
+	/*------------/Grid list layout 5 cot/------------*/
+	.grid-5 > .col-grid {
+		width: 20%;
+	}
+	/*------------/Grid list layout 6 cot/------------*/
+	.grid-6 > .col-grid {
+		padding: 0px 10px;
+		width: 16.666%;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .grid-2 > .col-grid {
+		width: 50%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+    .grid-2 > .col-grid {
+        width: 100%;
+    }
+    .flex-wrap-grid > .grid-item {
+        flex-basis: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    .flex-wrap-grid .grid-2-max-768 {
+        flex-basis: 50%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

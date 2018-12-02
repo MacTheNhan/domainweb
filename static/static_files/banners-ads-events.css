@@ -1,0 +1,192 @@
+/* text home effects */
+#txt-home {
+	color: #fff;
+	font-size: 1.5em;
+	text-align: center;
+	margin-top: 20px;
+	text-transform: uppercase;
+}
+.homepage .banner-carousel {
+	overflow: hidden;
+}
+.homepage .banner-carousel .owl-carousel .owl-wrapper-outer {
+	height: 250px;
+}
+.homepage .banner-carousel .owl-carousel .owl-wrapper-outer .item > a {
+    display: block;
+    height: 250px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.homepage .banner-carousel .owl-pagination .owl-page > span {
+    opacity: .25;
+}
+/* Banners carousel global style */
+/* Banner home style */
+#BannerAds {
+    margin: 30px 0px 0px;
+}
+#BannerAds .owl-carousel {
+    display: block;
+}
+#BannerAds .owl-carousel .owl-stage-outer {
+    display: inline-block;
+    overflow: hidden;
+    width: 100%;
+}
+.owl-carousel .owl-nav > .owl-prev,
+.owl-carousel .owl-nav > .owl-next {
+    position: absolute;
+    top: 48%;
+    cursor: pointer;
+    color: #929292;
+}
+.owl-carousel .owl-nav > .owl-prev {
+    left: -22px;
+}
+.owl-carousel .owl-nav > .owl-next {
+    right: -22px;
+}
+
+.owl-controls {
+    text-align: center;
+}
+.owl-controls .owl-buttons > * {
+    position: absolute;
+    top: 50%;
+    opacity: .45;
+    margin-top: -13px;
+}
+.owl-controls .owl-buttons > *:hover {
+    opacity: .75;
+}
+.owl-controls .owl-buttons > .owl-prev {
+    left: -8px;
+}
+.owl-controls .owl-buttons > .owl-next {
+    right: -8px;
+}
+
+.owl-controls .owl-page {
+    height: 13px;
+    width: 13px;
+    float: left;
+    margin: 0px 5px;
+    border-radius: 100%;
+    -moz-border-radius: 100%;
+    -webkit-border-radius: 100%;
+    border: none;
+}
+.owl-controls .owl-page:hover,
+.owl-controls .owl-page.active {
+    opacity: .7;
+}
+.owl-controls .owl-pagination {
+    padding: 0px;
+    margin: 5px;
+    display: inline-block;
+}
+.banner-carousel .owl-controls .owl-buttons > * {
+	top: 50%;
+	padding: 2px 8px;
+	background-color: rgba(0,0,0,0.25);
+    margin-top: -28px;
+    font-size: 24px;
+}
+.banner-carousel .owl-controls .owl-buttons > .owl-prev {
+	left: 10px;
+}
+.banner-carousel .owl-controls .owl-buttons > .owl-next {
+	right: 10px;
+}
+.banner-carousel .owl-pagination {
+	display: inline-flex;
+	justify-content: center;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	padding: 10px 5px;
+}
+.owl-pagination .owl-page {
+	margin: 2px 5px;
+}
+.owl-pagination .owl-page > span {
+	height: 12px;
+	width: 12px;
+	border-radius: 100%;
+	-moz-border-radius: 100%;
+	-webkit-border-radius: 100%;
+	display: block;
+	opacity: .4;
+}
+.banner-carousel .owl-pagination .owl-page.active > span {
+	opacity: .85;
+}
+
+/*------- owl-carousel customize -------------*/
+.owl-wrapper-outer .owl-item .thumbnail,
+.owl-wrapper-outer .owl-item figcaption {
+    float: left;
+}
+.owl-wrapper-outer .owl-item .thumbnail {
+    margin: 0px;
+    width: 22%;
+}
+.owl-wrapper-outer .owl-item figure {
+    padding: 5px 0px;
+}
+.owl-wrapper-outer .owl-item figcaption {
+    width: 78%;
+    padding-left: 14px;
+}
+.owl-wrapper-outer .owl-item figcaption > h4 {
+    text-transform: uppercase;
+}
+.owl-wrapper-outer .owl-item img {
+    width: auto;
+}
+.owl-wrapper-outer .owl-item .btn-control {
+    margin-top: 10px;
+}
+.owl-pagination {
+    text-align: center;
+}
+.owl-pagination .owl-page {
+    display: inline-block;
+    border: 1px solid #b6b6b6;
+    background-color: rgba(255,255,255,0.75);
+    margin: 0px 5px;
+}
+.owl-pagination .owl-page.active {
+    background-color: #4b82bc;
+    border: none;
+    opacity: .9;
+    filter: alpha(opacity=90);
+}
+
+@media screen and (min-width: 768px){
+	.banner-carousel .owl-buttons > * {
+		position: absolute;
+		top: 40%;
+		font-size: 30px;
+		color: #fff;
+		opacity: .6;
+	}
+	.banner-carousel .owl-buttons > *:hover {
+		opacity: .85;
+	}
+	.banner-carousel .owl-buttons .owl-prev {
+		left: -35px;
+	}
+	.banner-carousel .owl-buttons .owl-next {
+		right: -35px;
+	}
+	.banner-carousel:hover .owl-prev {
+		left: 8px;
+	}
+	.banner-carousel:hover .owl-next {
+		right: 8px;
+	}
+}

@@ -1,0 +1,183 @@
+/*--------------/Modal global style/---------------*/
+.iNETModal .modal-footer {
+	margin-top: 0px;
+}
+.resultWrap .modal-backdrop.in {
+	opacity: 0;
+	filter: alpha(opacity=0);
+	z-index: -1;
+}
+.modal-open {
+	padding-right: 6px;
+}
+.modal-body > .close,
+.modal-header > .close {
+	position: absolute;
+	right: -20px;
+	top: -15px;
+	margin: 0px;
+	opacity: 1;
+	padding: 3px 8px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #fff;
+}
+.modal-body > .close:hover,
+.modal-body > .close:focus,
+.modal-header > .close:hover,
+.modal-header > .close:focus {
+	background-color: #c61818;
+	color: #fff;
+	text-shadow: none;
+}
+
+/*--------------/Popup style yourWantIt ShowDmnModal/---------------*/
+.DmnGroup {
+	text-align: center;
+}
+.DmnGroup .textDmnLabel {
+	font-size: 22px;
+	margin: 0px;
+}
+.DmnGroup .textDmnLabel input[type="radio"], 
+.DmnGroup .textDmnLabel input[type="checkbox"] {
+	margin-right: 3px;
+}
+/*--------------/Payment popup calendar style at /cart/payment-info/---------------*/
+.form-date .dropdown-menu.ng-untouched {
+	padding: 8px;
+	min-width: 261px;
+}
+.dropdown-menu.ng-untouched > li th > button.btn-default {
+	border: none;
+}
+.dropdown-menu.ng-untouched > li th > button.btn-default > i.fa {
+	font-size: 20px;
+}
+.dropdown-menu.ng-untouched > li th > button.btn-default.pull-left {
+	margin-right: 9px;
+}
+.dropdown-menu.ng-untouched > li th > button.btn-default.pull-left,
+.dropdown-menu.ng-untouched > li th > button.btn-default.pull-right {
+	padding: 2px 10px;
+}
+.dropdown-menu.ng-untouched > li th > button.btn-default[aria-live="assertive"]{
+	background-color: #1976D2;
+	color: #fff;
+}
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default {
+	margin: 0px -2px -1px 0px;
+	border-radius: 0px;
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+}
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default > .ng-binding {
+	font-weight: 600;
+}
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default > .ng-binding.text-muted {
+	font-weight: 400;
+}
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default.active,
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default.btn-info {
+	background-color: #1976D2;
+}
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default.active > .ng-binding,
+.dropdown-menu.ng-untouched > li tbody td > button.btn-default.btn-info > .ng-binding {
+	color: #fff;
+}
+
+/*--------------> Modal order/order-list <---------------*/
+.ct-modal .modal-body,
+.ct-modal .modal-header {
+	padding: 10px;
+}
+.ct-modal .modal-header {
+	text-align: center;
+}
+.ct-modal .modal-header .modal-title {
+	line-height: 1;
+	font-weight: 600;
+	text-transform: uppercase;
+}
+.pr-info-des.box-margin {
+	margin: 10px 0px;
+}
+.transactions .box-margin {
+	margin: 10px 0px 0px;
+}
+.modal-dialog .mcBox {
+	margin-bottom: 10px;
+}
+.modal-dialog .header-box {
+	border-bottom: 1px solid #e2e2e2;
+	padding-bottom: 5px;
+	margin-bottom: 3px;
+}
+.modal-dialog .order-info .pr-info-des {
+	border: 1px dashed #b6b6b6;
+}
+.modal-dialog .order-info .pr-info-des h4 {
+	padding: 8px 10px;
+	margin: 0px;
+	background-color: #f2f2f2;
+}
+.modal-dialog .order-info .pr-info-des .list-info > li {
+	padding: 5px 8px;
+	border-bottom: 1px solid #e2e2e2;
+}
+.modal-dialog .payment-info .list-info.grid-2 {
+	padding: 8px;
+	background-color: #f2f2f2;
+	border: 1px solid #e2e2e2;
+}
+.modal-dialog .payment-info .list-info.grid-2 > li {
+	padding: 0px 6px;
+}
+.modal-dialog .payment-info .list-info.grid-2 > li:nth-child(2n+1) {
+	text-align: right;
+}
+/*--------------> Modal modal-lg <---------------*/
+.whois-results-modal .modal-header {
+	padding: 8px 15px;
+}
+.whois-results-modal .modal-footer {
+	padding: 12px 20px;
+	margin-top: 0px;
+}
+.whois-results-modal .group-domain-name .ion-android-happy {
+	font-size: 2em;
+}
+.whois-results-modal .group-domain-name .domainName {
+	font-size: 1.8em;
+}
+.whois-results-modal .SaleDmn {
+	margin-bottom: 0px;
+}
+.whois-results-modal .SaleDmn .DomainName .notice-binding,
+.whois-results-modal .feature-main-domain .list-domain-name .domainName, 
+.whois-results-modal .feature-main-domain .list-domain-name .ion-android-happy {
+	font-size: 1.42em;
+}
+.whois-results-modal .TopDmnFeature .get-sale-group-domain {
+	padding: 24px 15px;
+}
+
+.modal-dialog .btn:not(:last-child) {
+    margin-right: 6px;
+}
+
+@media screen and (max-width: 768px){
+    .modal-header > .close {
+        right: -9px;
+        top: -8px;
+    }
+}
+
+
+
+
+
+
+
+

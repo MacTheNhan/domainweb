@@ -1,0 +1,21 @@
+/* font body is 87.5% => 1em = 14px */
+.status-icon {
+	font-size: 18px;
+	vertical-align: middle;
+}
+.product-info .icon {
+	font-size: 4.286em;
+	color: #929292;
+}
+.icon-fz-2e {
+	font-size: 2em;
+}
+.icon-fz-3e {
+	font-size: 3em;
+}
+.icon-fz-4e {
+	font-size: 4em;
+}
+.icon-fz-35px {
+	font-size: 35px;
+}

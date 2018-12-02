@@ -1,0 +1,50 @@
+
+/*-------- Navbar fixed top ----------*/
+.inet-fixed-top,
+.inet-fixed-static {
+    transition: 0.2s linear 0s;
+    -o-transition: 0.2s linear 0s;
+    -moz-transition: 0.2s linear 0s;
+    -webkit-transition: 0.2s linear 0s;
+}
+.inet-fixed-static {
+    padding: 0px 8px;
+    top: -20px;
+    z-index: 1001;
+}
+.inet-fixed-static.inet-fixed-top {
+    position: fixed;
+    background-color: #fff;
+    top: 0px;
+    box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0px 2px 3px 0px rgba(0,0,0,.15);
+}
+
+.inet-fixed-top .hide {
+    display: inline-block !important;
+}
+
+
+*[scroll-up-down],
+*[scroll-up-down].up {
+    top: -80px;
+    transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -webkit-transition: all 0.2s linear 0s;
+}
+*[scroll-up-down].up,
+*[scroll-up-down].down {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,.15);
+    -moz-box-shadow: 0px 3px 10px 0px rgba(0,0,0,.15);
+    -webkit-box-shadow: 0px 3px 10px 0px rgba(0,0,0,.15);
+}
+*[scroll-up-down].down {
+    top: 0;
+    background-color: #fff;
+}

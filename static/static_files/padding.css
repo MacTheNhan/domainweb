@@ -1,0 +1,144 @@
+.no-padding {
+	padding: 0px !important;
+}
+.no-top-padding {
+	padding-top: 0px !important;
+}
+.no-right-padding {
+	padding-right: 0px !important;
+}
+.no-bottom-padding {
+	padding-bottom: 0px !important;
+}
+.no-left-padding {
+	padding-left: 0px !important;
+}
+/* padding 5px */
+.padding-5px {
+	padding: 5px;
+}
+.padding-top-5px {
+	padding-top: 5px;
+}
+.padding-right-5px {
+	padding-right: 5px;
+}
+.padding-bottom-5px {
+	padding-bottom: 5px;
+}
+.padding-left-5px {
+	padding-left: 5px;
+}
+.padding-tb-5px {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+/* padding 10px */
+.padding-10px {
+	padding: 10px;
+}
+.padding-top-10px {
+	padding-top: 10px;
+}
+.padding-right-10px {
+	padding-right: 10px;
+}
+.padding-bottom-10px {
+	padding-bottom: 10px;
+}
+.padding-left-10px {
+	padding-left: 10px;
+}
+.padding-tb-10px {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.padding-lr-10px {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+/* padding 15px */
+.padding-15px {
+	padding: 15px;
+}
+.padding-top-15px {
+	padding-top: 15px;
+}
+.padding-right-15px {
+	padding-right: 15px;
+}
+.padding-bottom-15px {
+	padding-bottom: 15px;
+}
+.padding-left-15px {
+	padding-left: 15px;
+}
+.padding-tb-15px {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.padding-rl-15px {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+/* padding 20px */
+.padding-20px {
+	padding: 20px;
+}
+.padding-top-20px {
+	padding-top: 20px;
+}
+.padding-right-20px {
+	padding-right: 20px;
+}
+.padding-bottom-20px {
+	padding-bottom: 20px;
+}
+.padding-left-20px {
+	padding-left: 20px;
+}
+.padding-tb-20px {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+/* padding 25px */
+.padding-25px {
+	padding: 25px;
+}
+.padding-top-25px {
+	padding-top: 25px;
+}
+.padding-right-25px {
+	padding-right: 25px;
+}
+.padding-bottom-25px {
+	padding-bottom: 25px;
+}
+.padding-left-25px {
+	padding-left: 25px;
+}
+/* padding 30px */
+.padding-30px {
+	padding: 30px;
+}
+.padding-top-30px {
+	padding-top: 30px;
+}
+.padding-right-30px {
+	padding-right: 30px;
+}
+.padding-bottom-30px {
+	padding-bottom: 30px;
+}
+.padding-left-30px {
+	padding-left: 30px;
+}
+.padding-tb-30px {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+/* padding 40px */
+.padding-tb-40px {
+	padding-top: 40px;
+	padding-bottom: 40px;
+}

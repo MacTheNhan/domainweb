@@ -1,0 +1,1369 @@
+/*coupon-code page style*/
+
+.ld-content .feature-banner {
+    position: relative;
+}
+
+.ld-content .price-sale .nav-tabs {
+    border-radius: 6px 6px 0px 0px;
+    -moz-border-radius: 6px 6px 0px 0px;
+    -webkit-border-radius: 6px 6px 0px 0px;
+}
+.ld-content .feature-banner .ft-main {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 63%;
+}
+.ld-style-one #main-content {
+    position: relative;
+    min-height: initial;
+}
+.ld-style-one .frm-register-wrap .btn {
+    min-width: 150px;
+}
+.ld-style-one .btn.call-me-back {
+    min-width: inherit;
+}
+.get-info-form.ld-style-one .frm-register-wrap {
+    left: 75%;
+    padding: 10px;
+    background-color: #fff;
+}
+.ld-style-one .frm-sm.frm-register-wrap {
+    left: 74%;
+    padding: 10px;
+    background-color: #f2f2f2;
+}
+
+/*---------------- Giảm 20% VPS -----------------------*/
+/*------------- Mua hosting tặng tên miền .com hoặc .net --------------*/
+.mua-email-tang-ten-mien-com-hoac-net.ld-style-one .frm-register-wrap,
+.mua-hosting-tang-ten-mien-com-hoac-net.ld-style-one .frm-register-wrap {
+    left: 74%;
+}
+
+.mua-email-tang-ten-mien-com-hoac-net .frm-register-wrap > form,
+.mua-hosting-tang-ten-mien-com-hoac-net .frm-register-wrap > form {
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin-bottom: 10px;
+}
+/*-----------------o0o Button callToAction o0o--------*/
+.dung-thu-seo-hosting .call-to-action-red {
+    background-color: #cb0502;
+    color: #fff;
+    border-color: #ffbdbd;
+    border-width: 2px;
+    font-size: 22px;
+    margin-right: 78px;
+    position: relative;
+}
+.dung-thu-seo-hosting .call-to-action-red:before {
+    content: "";
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #ffbdbd;
+    position: absolute;
+    top: -17px;
+    left: 47%;
+}
+.dung-thu-seo-hosting .call-to-action-red:hover {
+    animation-iteration-count: 0;
+    -o-animation-iteration-count: 0;
+    -moz-animation-iteration-count: 0;
+    -webkit-animation-iteration-count: 0;
+}
+.dung-thu-seo-hosting .modal-dialog .join-group-fb {
+    position: relative;
+}
+.dung-thu-seo-hosting .modal-dialog .modal-header {
+    padding-bottom: 0px;
+}
+.join-group-fb > .btn {
+    position: absolute;
+    right: 12px;
+    bottom: 13px;
+    box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.55);
+    -moz-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.55);
+    -webkit-box-shadow: 0px 0px 10px 2px rgba(0,0,0,0.55);
+}
+/*-----------------o0o landing page style core o0o------------------*/
+.ld-content .price-table .nav-tabs {
+    margin-bottom: 15px;
+    background-color: #0074bb;
+    padding: 5px 5px 0px;
+}
+.ld-content .commitment {
+    background-color: #F2F2F2;
+    padding-bottom: 15px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #e2e2e2;
+}
+.ld-content .email-server.col-grid {
+    width: 100%;
+    text-align: center;
+}
+.ld-content #btnFixed {
+    opacity: 0;
+}
+.ld-content #btnFixed.affix {
+    top: 20px;
+    right: 30px;
+    opacity: 1;
+    position: fixed !important;
+}
+.ld-content #btnFixed > .btn {
+    box-shadow: 0px 4px 0px 0px #b42626, 0px 6px 5px 0px rgba(0,0,0,.75);
+    -moz-box-shadow: 0px 4px 0px 0px #b42626, 0px 6px 5px 0px rgba(0,0,0,.75);
+    -webkit-box-shadow: 0px 4px 0px 0px #b42626, 0px 6px 5px 0px rgba(0,0,0,.75);
+    font-weight: 600;
+    font-family: 'Athiti', sans-serif;
+    padding: 6px 25px;
+    border-top: 1px solid #ff8484;
+}
+.modal-content .modal-header > i.ion-android-contact {
+    font-size: 4em;
+    position: relative;
+    text-align: center;
+    margin-top: -50px;
+    display: block;
+}
+.modal-content .modal-header > i.ion-android-contact:before {
+    background-color: #fff;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    padding: 5px 14px;
+    color: #4894df;
+}
+/*-----------------o0o End landing page style core o0o------------------*/
+.as-low-as-price .promo-price {
+    display: block;
+    font-size: 1.6em;
+}
+.suite-deal .box-inner {
+    background-color: #f2f2f2;
+    border: 1px dashed #b6b6b6;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.combo-service {
+    text-align: center;
+}
+.combo-action.combo-service {
+    text-align: left;
+}
+.combo-service .icon {
+    font-size: 5em;
+    color: #1976D2;
+}
+.combo-service .col-inner > p {
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #424242;
+}
+.calculations .col-inner > span {
+    font-size: 5em;
+    color: #727272;
+}
+.combo-service .combo-info {
+    font-size: 18px;
+    margin-bottom: 15px;
+    padding: 15px;
+}
+.combo-service .combo-info p {
+    margin: 0px;
+}
+.deals-content > .nav-tabs > li.active > a {
+    background-color: #e2e2e2;
+    color: #212121;
+    font-weight: 700;
+}
+.deals-content figure.cop-content {
+    padding: 10px;
+    border: 2px solid #e2e2e2;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+}
+.deals-content figure > figcaption .h3 {
+    font-weight: 700;
+    color: #212121;
+}
+.deals-content figure .thumbnail {
+    margin: -9px -9px 8px;
+}
+.deals-content .price-wrapper {
+    margin: 15px 0px;
+}
+.deals-content .price-wrapper .price-order {
+    font-weight: 600;
+}
+.price-order.price-sale-order {
+    font-size: 2em;
+    color: #ec1c24;
+}
+.price-order.price-sale-prefix {
+    font-size: 1.25em;
+    color: #424242;
+}
+.panel-order-info {
+    margin-top: 25px;
+}
+.panel-order-info .panel-body h3 {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.panel-order-info .panel-body > *:not(:last-child) {
+    margin-bottom: 20px;
+}
+.panel-order-info .panel-body .combo-info {
+    padding: 15px;
+    background-color: #fff5d7;
+    box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,.18);
+    -moz-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,.18);
+    -webkit-box-shadow: inset 0px 0px 8px 0px rgba(0,0,0,.18);
+}
+.panel-order-info .panel-body .combo-info > h3 {
+    border-color: #e6dbb8;
+}
+.combo-info .domain-validation {
+    position: relative;
+    margin-bottom: 18px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #e6dbb8;
+}
+.combo-info .domain-validation:before {
+    content: '';
+    background: transparent url('/public/img/suite-deal/gift.png') no-repeat left top;
+    height: 122px;
+    position: absolute;
+    top: 15px;
+    left: -44px;
+    width: 197px;
+}
+.combo-info .domain-validation .lead {
+    margin-bottom: 10px;
+}
+.panel-order-info .total-price > .price-sale {
+    font-size: 22px;
+}
+.hosting-service figcaption,
+.combo-info .domain-validation .fee-info {
+    padding-right: 10px;
+    margin-right: 10px;
+    border-right: 1px solid #e6dbb8;
+}
+.combo-info .domain-validation .fee-info > * {
+    display: block;
+}
+.hosting-service figure[display='flex'] > .thumbnail {
+    width: 25%;
+    padding: 0px;
+    border: none;
+    margin-right: 10px;
+    background-color: transparent;
+    text-align: center;
+}
+.hosting-service figure[display='flex'] > .thumbnail > i {
+    font-size: 6em;
+    color: #5aa3ce;
+}
+.hosting-service figure[display='flex'] > figcaption ul {
+    padding-left: 20px;
+}
+.hosting-service .gift-value > .price-sale {
+    font-size: 24px;
+}
+
+/* ----------------o0o Coupons/code style o0o-------------*/
+.sidebar-menu #sidebarLeft {
+    background-color: #fff;
+}
+
+.group-domain-name > i,
+.group-domain-name .txt-des {
+    font-size: 2.4em;
+}
+.combo-plan .col-inner {
+    padding: 15px;
+}
+.combo-plan .col-inner .box-title.h2 {
+    margin: -16px -16px 10px;
+    padding: 15px;
+}
+.combo-plan .dropdown-toggle,
+.combo-plan .btn-selected {
+    width: 100%;
+}
+.combo-plan .btn-selected {
+    font-size: 1.5em;
+}
+.combo-plan .list-feature ul {
+    margin: 10px 0px;
+    padding: 0px;
+    list-style: none;
+}
+.combo-plan .list-feature ul > li {
+    font-size: 18px;
+    position: relative;
+}
+.combo-plan .list-feature ul > li:before {
+    content: "\f375";
+    font-size: 20px;
+    font-family: "Ionicons";
+    margin-right: 12px;
+    color: #1eba5c;
+    padding: 2px;
+}
+.total-package-val .txt-des {
+    margin-top: 0px;
+}
+.total-package-val .price-sale {
+    font-size: 1.2em;
+    display: inline;
+}
+.step-3 .page-title {
+    margin: 0px;
+}
+.step-2-content {
+    margin-bottom: 20px;
+}
+.step-2-content .or span {
+    display: block;
+    font-size: 3.5em;
+    text-align: center;
+}
+/* /khuyen-mai */
+#ourBestDeals .cop-content {
+    padding: 5px;
+    border: 1px solid #e2e2e2;
+    cursor: pointer;
+}
+#ourBestDeals .cop-content:hover,
+#ourBestDeals .cop-content:focus{
+    border-color: #b4d2f0;
+}
+#ourBestDeals .cop-content:hover .cop-title {
+    color: #1976d2;
+}
+#ourBestDeals .thumbnail > a {
+    display: block;
+    position: relative;
+}
+#ourBestDeals .thumbnail > a:before {
+    background-color: rgba(0,116,187,.45);
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 100%;
+}
+#ourBestDeals .thumbnail > a:hover:before {
+    right: 2px;
+}
+#ourBestDeals .cop-content .thumbnail {
+    margin-bottom: 10px;
+}
+/*khuyen-mai/Sale-Ten-Mien-Viet-Nam*/
+.sale-support figure > .thumbnail {
+    float: left;
+    width: 85px;
+    height: 80px;
+    overflow: hidden;
+    padding: 0;
+    border: none;
+}
+.sale-support figure > .thumbnail + figcaption {
+    float: right;
+    width: calc(100% - 85px);
+    padding-left: 18px;
+}
+.sale-support .tel-phone {
+    font-size: 1.2em;
+}
+.sale-support .tel-phone > i {
+    color: #b6b6b6;
+}
+/*Combo style default*/
+.list-combo-item {
+    list-style: none;
+}
+.list-combo-item > li {
+    float: left;
+}
+.list-combo-item > li.add {
+    padding: 0px 18px;
+}
+.combo-des *[hgroup]> h2 {
+    font-size: 3em;
+    margin: 0px 35px 0px 0px;
+    text-transform: uppercase;
+    background-color: #4894DF;
+    color: #fff;
+    position: relative;
+    padding: 0px 8px;
+}
+.combo-des *[hgroup] > h2:after {
+    content: '';
+    border-width: 30px 30px 30px 30px;
+    border-style: solid;
+    border-color: transparent transparent transparent #4894DF;
+    position: absolute;
+    top: -7px;
+    right: -60px;
+}
+.header-result-inner {
+    padding: 20px 0px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    position: relative;
+}
+.header-result-inner .page-title {
+    padding: 0px;
+    border: none;
+}
+/*khuyen-mai/combo-ten-mien-hosting*/
+.combo-ten-mien-hosting .group-combo-text {
+    font-size: 40px;
+    padding-top: 36px;
+}
+.combo-info {
+    padding-top: 30px;
+}
+.combo-info .list-combo-item > li {
+    padding: 0px 18px;
+}
+.package-detail {
+    padding: 5px 0px;
+    margin: 0px 0px 8px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #e2e2e2;
+}
+.package-detail > ul {
+    padding-left: 18px;
+}
+.combo-plan li > .list-content {
+    padding: 8px;
+    border: 1px dashed #e2e2e2;
+}
+.combo-plan li:hover > .list-content,
+.combo-plan li.active > .list-content{
+    border-color: #0074bb;
+    background-color: #f2f2f2;
+}
+.header-result-wrap .result-domain {
+    border: 1px solid #e2e2e2;
+    background-color: #fff;
+    padding: 10px 15px;
+}
+.result-domain > .rs-content {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.result-domain > .rs-content:last-child {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    border-bottom: none;
+}
+/*Giải pháp tên miền hosting*/
+.feature-solution > h4 {
+    color: #c09a36;
+}
+.feature-solution .group-slt > li:first-child {
+    margin-right: 10px;
+}
+.feature-solution .group-slt > li:last-child {
+    margin-left: 34px;
+}
+.feature-solution .group-slt > li > .icon {
+    color: #4d8ece;
+}
+.feature-solution .group-slt > li > .plus {
+    font-size: 5em;
+    color: #c09a36;
+    position: absolute;
+}
+.feature-solution .group-slt > li > .icon {
+    font-size: 8em;
+}
+.package-list .group-slt + .save-money {
+    font-size: 1.5em;
+    padding: 5px;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    background-color: #f2f2f2;
+}
+.feature-solution .group-slt > li > .name-service {
+    font-size: 2em;
+}
+.group-slt > li .plus,
+.feature-solution .save-money {
+    font-size: 3em;
+}
+/*Giải pháp tên miền và email*/
+.giai-phap-email-ten-mien #featureBanner {
+    background-color: #0e83cc;
+}
+.giai-phap-email-ten-mien #featureBanner:after {
+    background-color: #f2f2f2;
+    box-shadow: 0 5px 0 6px #dab758,0 15px 0 15px #2598e1;
+    -moz-box-shadow: 0 5px 0 6px #dab758,0 15px 0 15px #2598e1;
+    -webkit-box-shadow: 0 5px 0 6px #dab758,0 15px 0 15px #2598e1;
+}
+.giai-phap-email-ten-mien .feature-solution .save-money {
+    font-size: 2.3em;
+}
+.giai-phap-email-ten-mien .feature-solution > h4 {
+    color: #b6b6b6;
+}
+.giai-phap-email-ten-mien .feature-solution .group-slt > li > .plus {
+    color: #b6b6b6;
+}
+.giai-phap-email-ten-mien .feature-solution .group-slt > li > .name-service {
+    font-size: 18px;
+    color: #727272;
+}
+.giai-phap-email-ten-mien .domain-suggest-wrapper {
+    border-top: none;
+}
+
+.group-slt {
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+.group-slt > li {
+    float: left;
+    padding: 0px 8px;
+    width: 25%;
+}
+.group-slt > li:last-child,
+.group-slt > li:first-child {
+    width: 100%;
+}
+.group-slt > li > * {
+    display: block;
+}
+.group-slt > li > .icon {
+    font-size: 5em;
+}
+#countDownBox {
+    box-shadow: 0px 1px 5px 0px rgba(0,0,0,.2);
+    background-color: #f2f2f2;
+}
+.package-list .col-grid .box-inner {
+    border-width: 5px 1px 4px;
+    border-style: solid;
+    box-shadow: 2px 2px 3px 0px rgba(0,0,0,.45);
+    -moz-box-shadow: 2px 2px 3px 0px rgba(0,0,0,.45);
+    -webkit-box-shadow: 2px 2px 3px 0px rgba(0,0,0,.45);
+    border-color: #edcb71 #e2e2e2 #e2e2e2;
+}
+/*khuyen-mai/giai-phap-ten-mien-hosting*/
+.featured-solution {
+    position: relative;
+}
+.featured-solution .loading-wrap {
+    position: absolute;
+}
+#featureBanner {
+    position: relative;
+    overflow: hidden;
+    background-color: #4d8ece;
+}
+#featureBanner:after {
+    background-color: #edcb71;
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    z-index: 0;
+    left: 34%;
+    width: 32%;
+    height: 130%;
+    border-radius: 100%;
+    top: -33px;
+    box-shadow: 0px 5px 0px 6px #dab758, 0px 15px 0px 15px #62a1df;
+    -moz-box-shadow: 0px 5px 0px 6px #dab758, 0px 15px 0px 15px #62a1df;
+    -webkit-box-shadow: 0px 5px 0px 6px #dab758, 0px 15px 0px 15px #62a1df;
+}
+#featureBanner > * {
+    position: relative;
+    z-index: 2;
+}
+.featured-solution .figure-thumbnail > .thumbnail {
+    width: 25%;
+}
+.featured-solution .figure-thumbnail > .thumbnail + figcaption {
+    width: calc(100% - 25%);
+}
+.service-detail ul {
+    list-style: none;
+    padding: 0px;
+}
+#domainWrap .domain-name {
+    margin-right: 20%;
+}
+#domainWrap .domain-name,
+.featured-solution .domain-suggest-wrapper .list-domain-name > * {
+    vertical-align: middle;
+}
+.giai-phap-ten-mien-hosting .domain-suggest-wrapper {
+    border-top: none;
+}
+.featured-solution .domain-suggest-wrapper .list-domain-name {
+    border-width: 1px 0px 0px;
+    border-style: solid;
+    border-color: #e2e2e2;
+    padding-bottom: 8px;
+}
+
+/*Black Friday style*/
+.black-friday .content-blfrd {
+    position: relative;
+}
+.black-friday h2 {
+    font-weight: 700;
+    color: #727272;
+}
+.black-friday .feature-banner {
+    height: 465px;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    position: relative;
+}
+.btn.bl-frd.btn-bl-red {
+    position: absolute;
+    bottom: 37px;
+    font-size: 53px;
+    font-family: 'Roboto', sans-serif;
+    padding: 14px;
+    border: none;
+    color: #fff;
+    text-shadow: 2px 2px 1px #a91216;
+}
+.btn.bl-frd.btn-bl-red:hover {
+    opacity: 1;
+    color: #d3d454;
+}
+.black-friday .nav-tabs.nav-justified {
+    margin-bottom: 25px;
+    padding: 0px;
+    background-color: #424242;
+}
+.black-friday .nav-tabs.nav-justified > li > a,
+.black-friday .nav-tabs.nav-justified > .active > a,
+.black-friday .nav-tabs.nav-justified > .active > a:hover {
+    border: none;
+}
+.black-friday .nav-tabs.nav-justified > li > a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #bbb;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+}
+
+.black-friday .nav-tabs.nav-justified > li > a:hover,
+.black-friday .nav-tabs.nav-justified > .active > a,
+.black-friday .nav-tabs.nav-justified > .active > a:hover{
+    color: #fdc74b;
+}
+.black-friday .nav-tabs.nav-justified > .active > a:before {
+    content: '';
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent transparent #fff;
+    position: absolute;
+    bottom: 0;
+    left: 48%;
+}
+
+.black-friday .time-down {
+    padding: 8px 0;
+    position: absolute;
+    top: 45%;
+    left: 10px;
+    right: 10px;
+    text-align: center;
+}
+.black-friday .time-down strong {
+    font-size: 2.5em;
+}
+.black-friday .time-down strong:first-child {
+    color: #525252;
+}
+.time-down > strong:nth-child(n+2) {
+    background-color: rgba(0,0,0,.55);
+    color: #0074BB;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+.ld-style-one .navbar-default {
+    margin: 0px;
+}
+.ld-style-one .navbar-header,
+.ld-style-one .navbar-header > .navbar-brand {
+    float: none;
+}
+.ld-style-one .navbar-header {
+    text-align: center;
+}
+.ld-style-one .navbar-header > .navbar-brand {
+    padding: 10px;
+    display: inline-block;
+    height: inherit;
+}
+.ld-style-one .frm-register-wrap {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    left: 55%;
+}
+.ld-style-one .btn-call-to-action {
+    position: fixed;
+    top: 70px;
+    right: 220px;
+    text-align: right;
+}
+.ld-style-one .btn-call-to-action > .btn {
+    width: 220px;
+    margin-right: 15px;
+}
+.ld-style-one .feature-banner > img {
+    width: 100%;
+}
+/*---------------------- khuyen-mai/mua-ten-mien-viet-nam-tang-hosting -----------------------*/
+.mua-ten-mien-viet-nam-tang-hosting #main-content {
+    min-height: initial;
+    position: relative;
+}
+.mua-ten-mien-viet-nam-tang-hosting .feature-banner > img {
+    width: 100%;
+}
+.mua-ten-mien-viet-nam-tang-hosting .search-wrap .search-inner {
+    position: absolute;
+    top: 260px;
+    left: 45%;
+    right: 64px;
+    padding: 20px;
+    background-color: #ece393;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+}
+.mua-ten-mien-viet-nam-tang-hosting .search-result {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 1000;
+    overflow-y: scroll;
+}
+.mua-ten-mien-viet-nam-tang-hosting .search-result {
+    background: transparent url('/public/img/suite-deal/payment-online.png') no-repeat scroll top left / cover;
+}
+.mua-ten-mien-viet-nam-tang-hosting .suggest-result {
+    margin: 20px 0px;
+}
+.mua-ten-mien-viet-nam-tang-hosting .suggest-result .small-txt {
+    font-size: 20px;
+    color: #727272;
+}
+.mua-ten-mien-viet-nam-tang-hosting .panel {
+    background-color: rgba(255,255,255,.85);
+    border-color: #fff;
+}
+/*-----------o0o Ba ngày mua sắm sử dụng hết cả năm o0o-------------*/
+.ba-ngay-mua-sam-dung-tet-ca-nam .feature-banner {
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 453px;
+    background-position: center;
+}
+.ba-ngay-mua-sam-dung-tet-ca-nam .call-to-action-red {
+    background-color: #ec1c24;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Arimo', sans-serif;
+    margin-top: 174px;
+    border-radius: 8px;
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    padding: 8px 15px;
+    border: 2px solid #201501;
+    transform: rotate(-4deg) scale(1,1);
+    -o-transform: rotate(-4deg) scale(1,1);
+    -ms-transform: rotate(-4deg) scale(1,1);
+    -moz-transform: rotate(-4deg) scale(1,1);
+    -webkit-transform: rotate(-4deg) scale(1,1);
+    transition: all 0.15s ease-out 0s;
+    -moz-transition: all 0.15s ease-out 0s;
+    -webkit-transition: all 0.15s ease-out 0s;
+}
+.ba-ngay-mua-sam-dung-tet-ca-nam .call-to-action-red:hover,
+.ba-ngay-mua-sam-dung-tet-ca-nam .call-to-action-red:focus {
+    background-color: #0074bb;
+    transform: rotate(-4deg) scale(1.4,1.4);
+    -o-transform: rotate(-4deg) scale(1.4,1.4);
+    -ms-transform: rotate(-4deg) scale(1.4,1.4);
+    -moz-transform: rotate(-4deg) scale(1.4,1.4);
+    -webkit-transform: rotate(-4deg) scale(1.4,1.4);
+}
+
+/*----------- lên mây cùng ông táo ------------*/
+.len-may-cung-ong-tao #main-content {
+    min-height: inherit;
+}
+.len-may-cung-ong-tao .feature-banner > img {
+    width: 100%;
+}
+.len-may-cung-ong-tao #main-content {
+    position: relative;
+    overflow: hidden;
+}
+.len-may-cung-ong-tao.ld-style-one .btn-call-to-action {
+    position: absolute;
+    top: inherit;
+    right: 17%;
+}
+/*-------------------- Mua càng nhiều trả tiền càng ít ---------------------*/
+.mua-cang-nhieu-tra-tien-cang-it #main-content {
+    min-height: initial;
+}
+.mua-cang-nhieu-tra-tien-cang-it .frm-register-wrap {
+    left: inherit;
+    width: 300px;
+}
+.mua-cang-nhieu-tra-tien-cang-it .frm-register-wrap > .alert {
+    margin-top: 38px;
+}
+/*------------------- Hosting 19k -----------------------------*/
+.hosting-19k.ld-style-one #main-content {
+    min-height: initial;
+}
+.hosting-19k.ld-style-one .frm-register-wrap {
+    left: 73%;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    background-color: #fff;
+    padding: 8px;
+}
+.hosting-19k.ld-style-one .frm-register-wrap form > h3 {
+    margin-top: 0px;
+}
+/*-------------------- Mua tên miền VN tặng email doanh nghiệp --------------*/
+.mua-ten-mien-viet-nam-tang-email.ld-style-one #main-content {
+    min-height: initial;
+}
+.mua-ten-mien-viet-nam-tang-email.ld-style-one .frm-register-wrap {
+    top: inherit;
+    bottom: 28%;
+    padding: 8px;
+    background-color: rgba(255,255,255,.9);
+    left: 62%;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+/*-------------------- Giảm giá 40% hosting gói B --------------*/
+.giam-gia-hosting-goi-b.ld-style-one #main-content {
+    min-height: initial;
+}
+.giam-gia-hosting-goi-b .frm-register-wrap {
+    padding: 10px;
+    background-color: rgba(255,255,255,.85);
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    left: 72%;
+}
+/*-------------------- Mua combo tên miền VN + Email tặng tên miền quốc tế --------------*/
+
+/*-- Mobile style --*/
+@media screen and (min-width: 1366px){
+    .mua-cang-nhieu-tra-tien-cang-it .frm-register-wrap {
+        top: 180px;
+        width: 410px;
+    }
+}
+
+/*-- screen full hd 1200px+ --*/
+@media screen and (min-width: 1200px){
+    .feature-solution .group-slt {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .black-friday .feature-banner {
+        background-size: cover;
+        background-position: center;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action {
+        bottom: 22%;
+    }
+}
+@media screen and (min-width: 768px){
+    .feature-solution .group-slt {
+        max-width: 490px;
+        margin: 0 auto;
+    }
+    .black-friday .feature-banner {
+        background-size: cover;
+        background-position: center;
+    }
+    .black-friday .ld-content .nav-tabs > li > a:hover,
+    .black-friday .ld-content .nav-tabs > li > a:focus,
+    .black-friday .ld-content .nav-tabs > li.active > a,
+    .black-friday .ld-content .nav-tabs > li.active > a:hover,
+    .black-friday .ld-content .nav-tabs > li.active > a:focus {
+        background-color: transparent;
+    }
+    /*---------o0o Landing page style core o0o-----------*/
+    .ld-content .nav-tabs > li > a {
+        background-color: transparent;
+    }
+    .ld-content .nav-tabs > li > a,
+    .ld-content .nav-tabs > li.active > a,
+    .ld-content .nav-tabs > li.active > a:hover,
+    .ld-content .nav-tabs > li.active > a:focus {
+        border: none;
+        color: #f2f2f2;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    .ld-content .nav-tabs > li > a:hover,
+    .ld-content .nav-tabs > li > a:focus,
+    .ld-content .nav-tabs > li.active > a,
+    .ld-content .nav-tabs > li.active > a:hover,
+    .ld-content .nav-tabs > li.active > a:focus {
+        background-color: #2188c7;
+    }
+    .ld-content .nav-tabs > li > a:focus:before,
+    .ld-content .nav-tabs > li > a:hover:before,
+    .ld-content .nav-tabs > li.active > a:before {
+        content: '';
+        border-width: 6px;
+        border-style: solid;
+        border-color: transparent transparent #f2f2f2;
+        position: absolute;
+        bottom: 0px;
+        left: 48%;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it .feature-banner > .img-max-640px {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1366px) {
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action {
+        bottom: 18%;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action img {
+        width: 82%;
+    }
+    .mua-ten-mien-viet-nam-tang-email.ld-style-one .frm-register-wrap {
+        bottom: 16%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .ld-style-one .btn {
+        width: 100%;
+    }
+    .black-friday .feature-banner {
+        height: 536px;
+        background-size: contain;
+        background-color: #090909;
+    }
+    .btn.bl-frd.btn-bl-red {
+        bottom: 30%;
+        left: 21%;
+    }
+    .black-friday .time-down {
+        top: inherit;
+        bottom: 12%;
+    }
+    .time-down>strong:nth-child(n+2) {
+        color: #cec98f;
+    }
+    .ba-ngay-mua-sam-dung-tet-ca-nam .feature-banner > .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        top: 36%;
+    }
+    .ba-ngay-mua-sam-dung-tet-ca-nam .call-to-action-red {
+        margin: 0px;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action {
+        bottom: 16%;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action img {
+        width: 70%;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it .frm-register-wrap {
+        top: 100px;
+    }
+    .hosting-19k.ld-style-one .frm-register-wrap form > h3 {
+        font-size: 20px;
+    }
+    .mua-ten-mien-viet-nam-tang-email.ld-style-one .frm-register-wrap {
+        bottom: 20px;
+    }
+    .ld-style-one #main-content {
+        min-height: initial;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    #featureBanner {
+        background-color: #edcb71;
+    }
+    #featureBanner:after {
+        display: none;
+    }
+
+    .package-list .inet-grid > .col-grid:not(:last-child) {
+        margin-bottom: 20px;
+    }
+    .feature-solution .thumbnail > i.icon {
+        font-size: 6em;
+    }
+    .feature-solution .domain-suggest-wrapper .list-domain-name {
+        padding: 5px 10px;
+        background-color: #fff;
+    }
+    .extention .list-domain-name {
+        padding-bottom: 8px;
+        margin-bottom: 5px;
+        border-bottom: 1px solid #e2e2e2;
+    }
+    #bannerSale + .container > h2 {
+        font-size: 1.5em;
+        margin-bottom: 15px;
+    }
+
+    .giai-phap-email-ten-mien #featureBanner {
+        background-color: #e2e2e2;
+    }
+    .modal-dialog .btn.close {
+        position: absolute;
+        right: 0px;
+        top: -21px;
+        margin: 0;
+        opacity: 1;
+        padding: 3px 8px;
+        border-radius: 3px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        background-color: #fff;
+    }
+    .modal-dialog .btn.close:hover {
+        background-color: #c61818;
+        color: #fff;
+        text-shadow: none;
+    }
+    /*Black friday*/
+    .black-friday .feature-banner {
+        height: 405px;
+    }
+    .black-friday .time-down {
+        bottom: 7%;
+    }
+    .btn.bl-frd.btn-bl-red {
+        font-size: 36px;
+    }
+    /*------o0o Ba ngay mua sam dung tet ca nam o0o--------*/
+    .ba-ngay-mua-sam-dung-tet-ca-nam .feature-banner {
+        height: inherit;
+    }
+
+    .mua-ten-mien-viet-nam-tang-hosting .search-wrap .container {
+        background-color: #a51116;
+    }
+    .mua-ten-mien-viet-nam-tang-hosting .search-wrap .search-inner {
+        position: static;
+        padding: 0;
+        margin: 15px 0px;
+        background: none;
+    }
+    #main-content {
+        min-height: 275px;
+    }
+    .payment-info .btn-group-action > *:not(:last-child) {
+        margin-bottom: 10px
+    }
+    .combo-info .domain-validation:before {
+        display: none;
+    }
+    .hosting-service figcaption {
+        padding: 0px;
+        margin: 0px;
+        border: none;
+    }
+    .hosting-service figure[display='flex'] {
+        flex-direction: column;
+        text-align: center;
+    }
+    .hosting-service figure[display='flex'] > figcaption ul {
+        padding: 0px;
+        list-style: none;
+    }
+    .hosting-service figure[display='flex'] > .thumbnail {
+        padding: 0px;
+        margin: 0px;
+    }
+    .ld-style-one #footer {
+        border-top: 1px solid #e2e2e2;
+        background-color: #f2f2f2;
+    }
+    .ld-style-one #footer .brand-logo > * {
+        display: flex;
+        align-items: center;
+        padding: 5px 8px;
+        margin: 0px;
+    }
+    .ld-style-one #footer .brand-logo .logo-protected-group > * {
+        flex: 1;
+        text-align: center;
+    }
+    .ld-style-one .btn-call-to-action {
+        position: static;
+    }
+    .ld-style-one .btn-call-to-action > .btn {
+        width: 100%;
+        margin-right: 0px;
+        border-radius: 0px;
+        -moz-border-radius: 0px;
+        -webkit-border-radius: 0px;
+    }
+    .ld-style-one .frm-register-wrap {
+        position: static;
+        margin: 10px;
+    }
+    .dung-thu-seo-hosting .modal-dialog {
+        margin-top: 40px;
+    }
+    .dung-thu-seo-hosting .call-to-action-red {
+        margin-right: 0px;
+        float: right;
+        font-size: 16px;
+    }
+    .dung-thu-seo-hosting .call-to-action-red:before {
+        display: none;
+    }
+    .join-group-fb > .btn {
+        position: static;
+        margin-bottom: 15px;
+        box-shadow: none;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action {
+        bottom: 7%;
+    }
+    /*---------- Mua càng nhiều trả tiền càng ít ------------*/
+    .mua-cang-nhieu-tra-tien-cang-it.ld-style-one .frm-register-wrap {
+        position: absolute;
+        margin: 0px;
+        width: 225px;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it.ld-style-one .frm-register-wrap h3 {
+        font-size: 18px;
+    }
+    /*--------------- Hosting 19k ---------------------------*/
+    .hosting-19k.ld-style-one #main-content {
+        background-color: #dcdcdc;
+        padding-bottom: 15px;
+    }
+    .ld-style-one .feature-banner .img-desktop {
+        display: none;
+    }
+    .ld-style-one .feature-banner .img-mobile  {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .black-friday .feature-banner {
+        height: 335px;
+    }
+    .btn.bl-frd.btn-bl-red {
+        font-size: 26px;
+    }
+    .black-friday .time-down {
+        bottom: 2%;
+        margin: 0;
+        left: 10px;
+        right: 10px;
+        text-align: center;
+    }
+    .time-down>strong:nth-child(n+2) {
+        background-color: rgba(0,0,0,.75);
+    }
+    .mua-cang-nhieu-tra-tien-cang-it.ld-style-one #main-content {
+        background-color: #e8e8e8;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it .feature-banner > .img-min-640px {
+        display: none;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it .feature-banner > .img-max-640px {
+        display: block;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it.ld-style-one .frm-register-wrap {
+        position: static;
+        width: auto;
+        margin: -294px 0 0;
+        text-align: center;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it.ld-style-one .frm-register-wrap > form {
+        width: 250px;
+        display: inline-block;
+        padding: 0px 10px;
+    }
+}
+@media screen and (max-width: 480px) {
+    .black-friday .feature-banner {
+        height: 460px;
+        background-image: url('img/coupon/blfrd-mobile_bg.jpg') !important;
+    }
+    .black-friday .feature-banner > .container {
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 94px;
+        text-align: center;
+    }
+    .btn.bl-frd.btn-bl-red {
+        font-size: 30px;
+        padding: 7px 40px;
+        position: static;
+    }
+    .black-friday .time-down {
+        right: 8px;
+        left: 8px;
+        text-align: center;
+        margin: 0px;
+        bottom: -84px;
+    }
+    .black-friday .time-down strong {
+        font-size: 2em;
+    }
+    .black-friday .hosting-service-info .figure-thumbnail > .thumbnail {
+        display: none;
+    }
+    .black-friday .hosting-service-info .figure-thumbnail > .thumbnail+figcaption {
+        width: 100%;
+    }
+    .black-friday .hosting-service-info .figure-thumbnail > .thumbnail+figcaption > ul {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .ba-ngay-mua-sam-dung-tet-ca-nam .feature-banner > .container {
+        top: 26%;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action img {
+        width: 48%;
+    }
+    /*--------o0o Price Table o0o---------*/
+    .inet-grid {
+        flex-direction: column-reverse;
+    }
+    .inet-grid > .col-grid {
+        margin: 10px 0px;
+    }
+    .mua-cang-nhieu-tra-tien-cang-it.ld-style-one .frm-register-wrap {
+        margin: -46% 0 0;
+        padding-bottom: 15px;
+    }
+}
+@media screen and (max-width: 414px) {
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action {
+        bottom: 7%;
+    }
+    .len-may-cung-ong-tao.ld-style-one .btn-call-to-action img {
+        width: 48%;
+    }
+}
+@media screen and (max-width: 375px) {
+    #featureBanner {
+        padding: 20px 0px;
+    }
+    .feature-solution > h4,
+    .feature-solution .save-money {
+        font-size: 2em;
+    }
+    .feature-solution .group-slt > li {
+        width: 40%;
+    }
+    .feature-solution .group-slt > li > .icon {
+        font-size: 6em;
+    }
+    .feature-solution .group-slt > li > .plus {
+        font-size: 3em;
+    }
+    .feature-solution .group-slt > li > .name-service {
+        font-size: 16px;
+    }
+    #countDownBox .txt-sz-2e {
+        font-size: 20px;
+    }
+    #countDownBox strong[countdown] {
+        display: block;
+    }
+    .save-money + .btn.bg-orange-2049414 {
+        padding: 6px 15px;
+    }
+    /*Black Friday*/
+    .black-friday .feature-banner {
+        height: 390px;
+        background-image: url('/public/img/coupon/blfrd-mobile-as(360x336)_bg.jpg') !important;
+    }
+    .black-friday .feature-banner > .container {
+        bottom: 70px;
+    }
+    .black-friday .time-down {
+        bottom: -70px;
+    }
+    .black-friday .time-down strong {
+        font-size: 1.5em;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .figure-thumbnail>.thumbnail,
+    .figure-thumbnail>.thumbnail+figcaption {
+        width: 100%;
+    }
+    .figure-thumbnail>.thumbnail+figcaption {
+        padding: 0px;
+    }
+    .black-friday .feature-banner {
+        height: 382px;
+    }
+    .black-friday .time-down strong {
+        font-size: 1.2em;
+    }
+
+    .ba-ngay-mua-sam-dung-tet-ca-nam .feature-banner > .container {
+        top: 4%;
+    }
+}

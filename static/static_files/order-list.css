@@ -1,0 +1,57 @@
+.order-list .search-filter {
+    padding: 10px;
+}
+.order-list .search-filter .form-control {
+    background-color: #fff;
+}
+tr .order-info .header-title {
+    display: inline-block;
+    font-size: 19px;
+    margin: 5px 0px;
+}
+tr .order-info .header-title,
+tr .order-info .header-title + .order-number {
+    vertical-align: middle;
+}
+
+tr.mt-table-dark .order-info .payment-info > .total-payment {
+    padding: 5px 10px;
+    background-color: #fff7b0;
+}
+tr.mt-table-dark .date-info.text-muted {
+    color: #b6b6b6;
+}
+
+@media screen and (max-width: 1366px) {
+    .order-list .content-wrap .search-filter {
+        margin: 0;
+        padding: 10px;
+    }
+    .order-list md-list > md-list-item.active {
+        background-color: #6fa1d6;
+        color: #fff;
+        position: relative;
+    }
+    .order-list md-list > md-list-item.active:before {
+        content: "";
+        border-width: 7px;
+        border-style: solid;
+        border-color: #628dbc transparent transparent transparent;
+        position: absolute;
+        top: 100%;
+        left: 15px;
+        z-index: 10;
+    }
+    .order-list md-list > md-list-item .md-list-item-text {
+        padding: 10px;
+        width: 100%;
+    }
+    md-list md-list-item.list-item-dark .md-list-item-text h3 {
+        color: #d2d2d2;
+    }
+    .list-item-dark .i-list-flex .i-list-item,
+    .list-item-dark .table th,
+    .list-item-dark .table td {
+        color: #424242;
+    }
+}
